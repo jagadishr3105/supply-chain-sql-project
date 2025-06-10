@@ -1,0 +1,501 @@
+order_id,order_date,ship_date,customer_name,segment,city,state,region,product_category,sub_category,product_name,sales,quantity,discount,profit,shipping_cost,delivery_status,warehouse
+ORD-1000,2021-06-24,2021-06-27,Customer 0,Corporate,Miami,Florida,South,Furniture,Table,Table 37,112.25,7,0.11,126.94,13.48,On Time,Warehouse B
+ORD-1001,2021-11-06,2021-11-08,Customer 1,Consumer,Miami,Texas,East,Technology,Phone,Phone 62,806.95,2,0.16,178.32,35.85,On Time,Warehouse C
+ORD-1002,2021-06-21,2021-06-26,Customer 2,Corporate,Chicago,Florida,South,Office Supplies,Paper,Paper 25,215.34,3,0.08,50.16,40.13,Late,Warehouse B
+ORD-1003,2020-02-09,2020-02-12,Customer 3,Corporate,Miami,New York,East,Technology,Monitor,Monitor 65,518.76,6,0.07,184.72,33.87,Late,Warehouse B
+ORD-1004,2020-10-25,2020-10-26,Customer 4,Home Office,Miami,New York,Central,Technology,Monitor,Monitor 84,377.24,8,0.25,-26.77,32.82,On Time,Warehouse C
+ORD-1005,2021-11-18,2021-11-20,Customer 5,Corporate,Los Angeles,Texas,East,Technology,Phone,Phone 5,541.05,1,0.29,35.34,9.13,On Time,Warehouse B
+ORD-1006,2020-06-15,2020-06-16,Customer 6,Consumer,New York City,Florida,South,Technology,Laptop,Laptop 29,585.61,1,0.0,291.05,13.14,On Time,Warehouse B
+ORD-1007,2020-12-04,2020-12-06,Customer 7,Home Office,Chicago,Florida,Central,Technology,Laptop,Laptop 86,913.36,9,0.01,-39.12,39.9,On Time,Warehouse A
+ORD-1008,2021-04-03,2021-04-05,Customer 8,Consumer,Chicago,Texas,South,Furniture,Table,Table 99,686.65,3,0.19,93.59,40.27,On Time,Warehouse A
+ORD-1009,2020-08-21,2020-08-26,Customer 9,Consumer,Houston,California,South,Furniture,Chair,Chair 65,474.36,9,0.26,267.94,11.48,Late,Warehouse C
+ORD-1010,2021-06-25,2021-07-01,Customer 10,Home Office,New York City,Florida,South,Technology,Phone,Phone 67,92.93,5,0.23,61.31,27.76,On Time,Warehouse C
+ORD-1011,2020-12-05,2020-12-09,Customer 11,Home Office,Chicago,Texas,Central,Furniture,Chair,Chair 85,617.13,8,0.2,109.55,49.75,Late,Warehouse B
+ORD-1012,2020-08-24,2020-08-30,Customer 12,Home Office,Miami,Florida,West,Technology,Laptop,Laptop 20,80.26,6,0.08,21.79,22.18,Late,Warehouse C
+ORD-1013,2020-06-21,2020-06-24,Customer 13,Consumer,Miami,New York,South,Furniture,Bookcase,Bookcase 21,901.61,4,0.03,214.22,36.12,Late,Warehouse B
+ORD-1014,2021-08-09,2021-08-10,Customer 14,Consumer,Los Angeles,Florida,Central,Technology,Monitor,Monitor 71,595.61,10,0.16,103.67,26.98,On Time,Warehouse B
+ORD-1015,2021-10-23,2021-10-24,Customer 15,Corporate,Los Angeles,Texas,South,Technology,Phone,Phone 46,144.08,2,0.18,-25.41,9.66,On Time,Warehouse A
+ORD-1016,2021-04-18,2021-04-19,Customer 16,Home Office,Los Angeles,New York,Central,Technology,Monitor,Monitor 73,402.9,3,0.04,240.43,40.74,On Time,Warehouse B
+ORD-1017,2021-02-06,2021-02-07,Customer 17,Consumer,Chicago,Florida,Central,Furniture,Bookcase,Bookcase 19,505.63,3,0.17,180.45,5.92,Late,Warehouse A
+ORD-1018,2020-09-24,2020-10-01,Customer 18,Home Office,Chicago,New York,West,Office Supplies,Pen,Pen 81,521.4,1,0.21,20.81,12.89,Late,Warehouse C
+ORD-1019,2020-04-22,2020-04-29,Customer 19,Home Office,Los Angeles,New York,Central,Technology,Monitor,Monitor 83,123.08,10,0.05,-3.36,28.4,On Time,Warehouse B
+ORD-1020,2021-04-18,2021-04-24,Customer 20,Home Office,Chicago,California,Central,Office Supplies,Paper,Paper 94,998.78,5,0.19,-18.46,39.91,Late,Warehouse A
+ORD-1021,2020-09-30,2020-10-02,Customer 21,Consumer,New York City,Illinois,East,Technology,Phone,Phone 93,116.05,2,0.26,20.85,37.58,Late,Warehouse C
+ORD-1022,2020-05-01,2020-05-04,Customer 22,Consumer,Chicago,New York,South,Office Supplies,Paper,Paper 100,937.22,3,0.08,162.96,38.13,Late,Warehouse C
+ORD-1023,2021-07-22,2021-07-24,Customer 23,Corporate,Chicago,Illinois,East,Furniture,Table,Table 96,906.43,5,0.26,221.47,14.88,Late,Warehouse A
+ORD-1024,2020-09-04,2020-09-09,Customer 24,Home Office,Chicago,New York,Central,Furniture,Bookcase,Bookcase 79,800.95,4,0.18,104.74,12.49,On Time,Warehouse B
+ORD-1025,2020-04-30,2020-05-03,Customer 25,Corporate,Chicago,Florida,South,Office Supplies,Binder,Binder 32,56.53,9,0.22,98.59,18.36,On Time,Warehouse C
+ORD-1026,2021-03-09,2021-03-13,Customer 26,Consumer,Chicago,Florida,East,Office Supplies,Pen,Pen 3,726.3,10,0.21,130.87,30.38,Late,Warehouse B
+ORD-1027,2020-09-27,2020-10-02,Customer 27,Corporate,Chicago,Illinois,East,Office Supplies,Paper,Paper 37,433.93,8,0.24,203.3,43.09,On Time,Warehouse C
+ORD-1028,2021-09-29,2021-10-05,Customer 28,Consumer,Miami,New York,South,Furniture,Chair,Chair 82,594.5,3,0.04,64.99,43.63,On Time,Warehouse B
+ORD-1029,2020-11-10,2020-11-13,Customer 29,Consumer,Chicago,California,East,Office Supplies,Binder,Binder 92,800.15,10,0.29,197.34,38.68,Late,Warehouse B
+ORD-1030,2020-03-04,2020-03-11,Customer 30,Corporate,New York City,Florida,East,Furniture,Table,Table 59,592.89,6,0.1,-20.12,37.52,On Time,Warehouse B
+ORD-1031,2021-04-27,2021-05-01,Customer 31,Consumer,Chicago,Texas,Central,Office Supplies,Pen,Pen 20,690.79,8,0.13,39.1,38.39,On Time,Warehouse A
+ORD-1032,2020-11-25,2020-11-29,Customer 32,Home Office,New York City,California,East,Furniture,Table,Table 77,323.56,6,0.15,294.83,29.41,Late,Warehouse A
+ORD-1033,2020-07-03,2020-07-05,Customer 33,Consumer,Miami,New York,East,Furniture,Bookcase,Bookcase 10,663.58,5,0.04,169.03,18.32,On Time,Warehouse A
+ORD-1034,2021-09-06,2021-09-12,Customer 34,Home Office,Chicago,Florida,West,Office Supplies,Binder,Binder 26,813.76,3,0.24,187.13,49.34,On Time,Warehouse A
+ORD-1035,2020-02-01,2020-02-08,Customer 35,Home Office,Miami,Texas,East,Office Supplies,Paper,Paper 84,488.1,10,0.05,241.61,37.63,On Time,Warehouse B
+ORD-1036,2021-12-23,2021-12-25,Customer 36,Corporate,Houston,Texas,East,Technology,Phone,Phone 39,176.66,3,0.02,252.63,46.45,On Time,Warehouse A
+ORD-1037,2020-08-02,2020-08-06,Customer 37,Home Office,Houston,Illinois,South,Technology,Laptop,Laptop 86,134.46,3,0.0,260.39,45.68,Late,Warehouse B
+ORD-1038,2021-01-04,2021-01-08,Customer 38,Corporate,New York City,Texas,West,Office Supplies,Binder,Binder 84,69.99,3,0.01,86.95,24.59,On Time,Warehouse B
+ORD-1039,2020-04-06,2020-04-08,Customer 39,Consumer,Los Angeles,Texas,Central,Technology,Phone,Phone 36,917.62,1,0.06,26.97,26.45,On Time,Warehouse B
+ORD-1040,2021-08-15,2021-08-18,Customer 40,Corporate,New York City,California,East,Furniture,Bookcase,Bookcase 65,991.72,7,0.03,186.24,48.75,On Time,Warehouse A
+ORD-1041,2021-10-18,2021-10-22,Customer 41,Corporate,Chicago,Texas,West,Office Supplies,Paper,Paper 95,858.63,7,0.19,262.38,42.69,On Time,Warehouse B
+ORD-1042,2020-06-27,2020-07-04,Customer 42,Home Office,New York City,Texas,East,Furniture,Chair,Chair 67,430.62,3,0.25,-45.88,44.16,Late,Warehouse B
+ORD-1043,2020-10-10,2020-10-13,Customer 43,Home Office,Chicago,California,East,Furniture,Table,Table 25,778.67,4,0.06,2.87,8.56,Late,Warehouse A
+ORD-1044,2020-08-12,2020-08-16,Customer 44,Corporate,Houston,Illinois,Central,Office Supplies,Binder,Binder 49,993.94,3,0.13,95.33,26.34,Late,Warehouse B
+ORD-1045,2021-06-27,2021-06-29,Customer 45,Corporate,Miami,Illinois,Central,Office Supplies,Pen,Pen 61,285.57,6,0.15,-29.4,6.66,Late,Warehouse B
+ORD-1046,2020-07-29,2020-08-04,Customer 46,Corporate,Houston,Florida,East,Office Supplies,Pen,Pen 11,365.02,10,0.15,184.84,11.93,On Time,Warehouse C
+ORD-1047,2020-09-11,2020-09-16,Customer 47,Consumer,Miami,California,East,Furniture,Bookcase,Bookcase 89,351.2,4,0.2,146.8,26.23,On Time,Warehouse A
+ORD-1048,2021-12-31,2022-01-05,Customer 48,Home Office,Houston,Texas,West,Furniture,Table,Table 96,635.73,2,0.27,164.85,38.68,Late,Warehouse C
+ORD-1049,2020-06-07,2020-06-13,Customer 49,Consumer,Los Angeles,California,South,Furniture,Chair,Chair 83,628.67,4,0.28,87.65,35.45,Late,Warehouse A
+ORD-1050,2021-10-24,2021-10-31,Customer 50,Corporate,Miami,Illinois,East,Technology,Phone,Phone 24,469.02,6,0.02,25.26,20.12,On Time,Warehouse C
+ORD-1051,2021-05-05,2021-05-10,Customer 51,Corporate,Miami,New York,West,Furniture,Bookcase,Bookcase 77,754.6,6,0.14,31.03,26.47,Late,Warehouse A
+ORD-1052,2021-12-04,2021-12-09,Customer 52,Home Office,Houston,Florida,Central,Technology,Laptop,Laptop 51,64.59,8,0.15,168.46,14.97,Late,Warehouse C
+ORD-1053,2021-03-02,2021-03-05,Customer 53,Corporate,New York City,California,East,Furniture,Chair,Chair 83,688.65,7,0.03,102.54,16.39,On Time,Warehouse C
+ORD-1054,2020-09-20,2020-09-23,Customer 54,Home Office,Los Angeles,New York,West,Office Supplies,Pen,Pen 35,748.49,4,0.09,178.07,34.9,Late,Warehouse C
+ORD-1055,2021-09-07,2021-09-12,Customer 55,Home Office,Los Angeles,California,West,Furniture,Bookcase,Bookcase 17,383.92,5,0.06,230.69,32.98,Late,Warehouse C
+ORD-1056,2021-11-01,2021-11-05,Customer 56,Home Office,Miami,New York,South,Furniture,Chair,Chair 44,356.04,2,0.09,20.89,35.03,Late,Warehouse B
+ORD-1057,2021-01-09,2021-01-11,Customer 57,Home Office,Houston,New York,East,Office Supplies,Pen,Pen 48,270.42,2,0.06,189.49,10.91,On Time,Warehouse A
+ORD-1058,2021-01-22,2021-01-26,Customer 58,Home Office,Los Angeles,New York,East,Office Supplies,Binder,Binder 65,128.2,7,0.09,-9.0,41.46,On Time,Warehouse B
+ORD-1059,2020-09-27,2020-10-02,Customer 59,Corporate,New York City,Illinois,West,Office Supplies,Pen,Pen 97,166.59,7,0.09,134.41,25.34,Late,Warehouse A
+ORD-1060,2021-06-14,2021-06-21,Customer 60,Home Office,Houston,California,Central,Technology,Monitor,Monitor 17,139.32,2,0.08,33.92,12.13,Late,Warehouse A
+ORD-1061,2020-09-24,2020-09-26,Customer 61,Corporate,Miami,Illinois,East,Office Supplies,Paper,Paper 65,367.39,7,0.26,238.09,35.7,On Time,Warehouse A
+ORD-1062,2020-07-19,2020-07-26,Customer 62,Consumer,Miami,Florida,East,Office Supplies,Paper,Paper 48,278.07,4,0.25,238.85,49.83,On Time,Warehouse C
+ORD-1063,2021-11-12,2021-11-13,Customer 63,Corporate,Chicago,California,Central,Office Supplies,Binder,Binder 82,560.04,9,0.25,50.18,34.71,Late,Warehouse A
+ORD-1064,2020-03-22,2020-03-25,Customer 64,Home Office,Chicago,Florida,South,Furniture,Table,Table 23,563.98,2,0.17,127.07,38.03,On Time,Warehouse C
+ORD-1065,2021-07-30,2021-08-03,Customer 65,Consumer,Houston,Florida,East,Furniture,Chair,Chair 94,141.22,3,0.29,173.25,12.33,On Time,Warehouse A
+ORD-1066,2021-07-21,2021-07-22,Customer 66,Consumer,Houston,Illinois,West,Office Supplies,Paper,Paper 29,905.95,5,0.17,189.47,35.62,Late,Warehouse B
+ORD-1067,2021-11-16,2021-11-19,Customer 67,Corporate,New York City,Texas,Central,Office Supplies,Paper,Paper 36,927.14,8,0.15,217.24,13.9,Late,Warehouse A
+ORD-1068,2020-02-25,2020-02-29,Customer 68,Home Office,New York City,California,East,Furniture,Chair,Chair 80,58.59,7,0.17,165.8,26.05,Late,Warehouse A
+ORD-1069,2021-09-24,2021-09-30,Customer 69,Home Office,Houston,Illinois,West,Office Supplies,Pen,Pen 94,496.66,5,0.15,293.29,26.6,Late,Warehouse C
+ORD-1070,2020-12-13,2020-12-17,Customer 70,Home Office,Los Angeles,Florida,South,Office Supplies,Binder,Binder 86,654.52,8,0.11,171.13,47.63,On Time,Warehouse C
+ORD-1071,2021-12-04,2021-12-09,Customer 71,Home Office,Houston,Texas,South,Furniture,Table,Table 89,522.13,3,0.14,48.28,41.1,Late,Warehouse C
+ORD-1072,2020-06-29,2020-07-03,Customer 72,Corporate,New York City,Florida,East,Technology,Monitor,Monitor 59,31.78,9,0.15,0.29,40.83,Late,Warehouse A
+ORD-1073,2021-04-15,2021-04-16,Customer 73,Corporate,Houston,Florida,East,Furniture,Bookcase,Bookcase 66,678.06,9,0.11,28.54,33.03,Late,Warehouse A
+ORD-1074,2021-08-16,2021-08-23,Customer 74,Consumer,Los Angeles,Texas,Central,Office Supplies,Paper,Paper 46,646.7,8,0.13,148.36,30.51,On Time,Warehouse C
+ORD-1075,2020-04-25,2020-04-28,Customer 75,Consumer,Houston,New York,West,Office Supplies,Paper,Paper 31,26.44,2,0.05,63.77,46.88,On Time,Warehouse A
+ORD-1076,2020-11-23,2020-11-30,Customer 76,Corporate,New York City,Texas,East,Technology,Laptop,Laptop 15,180.57,3,0.08,130.01,45.66,Late,Warehouse C
+ORD-1077,2021-09-11,2021-09-18,Customer 77,Home Office,New York City,Illinois,Central,Office Supplies,Pen,Pen 9,956.15,7,0.28,104.01,31.34,On Time,Warehouse B
+ORD-1078,2020-03-30,2020-04-03,Customer 78,Corporate,Houston,California,East,Furniture,Bookcase,Bookcase 39,368.99,1,0.22,-0.54,34.35,On Time,Warehouse C
+ORD-1079,2020-01-05,2020-01-06,Customer 79,Corporate,Miami,Texas,East,Technology,Phone,Phone 42,865.51,1,0.24,181.47,28.78,On Time,Warehouse B
+ORD-1080,2021-04-23,2021-04-24,Customer 80,Home Office,Chicago,Illinois,South,Technology,Laptop,Laptop 18,70.23,6,0.28,171.02,39.67,On Time,Warehouse C
+ORD-1081,2021-10-16,2021-10-18,Customer 81,Corporate,Chicago,California,South,Furniture,Table,Table 100,204.88,7,0.27,118.74,33.28,On Time,Warehouse B
+ORD-1082,2020-12-19,2020-12-20,Customer 82,Home Office,New York City,Illinois,Central,Furniture,Chair,Chair 70,273.35,1,0.15,165.33,39.76,Late,Warehouse C
+ORD-1083,2020-11-29,2020-12-06,Customer 83,Home Office,Los Angeles,Texas,Central,Office Supplies,Paper,Paper 43,279.04,10,0.19,14.35,47.79,Late,Warehouse B
+ORD-1084,2020-06-21,2020-06-22,Customer 84,Home Office,Miami,California,East,Technology,Phone,Phone 55,285.59,9,0.19,24.1,45.65,On Time,Warehouse C
+ORD-1085,2021-02-27,2021-03-05,Customer 85,Corporate,Houston,Illinois,East,Technology,Laptop,Laptop 26,926.32,5,0.16,138.59,46.46,On Time,Warehouse A
+ORD-1086,2020-03-10,2020-03-17,Customer 86,Consumer,Los Angeles,Texas,South,Office Supplies,Paper,Paper 8,600.99,1,0.02,126.12,27.25,On Time,Warehouse B
+ORD-1087,2021-04-19,2021-04-22,Customer 87,Home Office,Chicago,Illinois,West,Office Supplies,Pen,Pen 18,483.29,10,0.23,77.69,43.18,On Time,Warehouse C
+ORD-1088,2021-01-23,2021-01-28,Customer 88,Consumer,Miami,Texas,East,Technology,Monitor,Monitor 49,351.99,1,0.04,122.82,15.29,On Time,Warehouse C
+ORD-1089,2020-05-11,2020-05-16,Customer 89,Corporate,Los Angeles,New York,South,Furniture,Bookcase,Bookcase 69,256.57,10,0.07,201.73,18.85,Late,Warehouse A
+ORD-1090,2020-10-05,2020-10-06,Customer 90,Consumer,Los Angeles,Illinois,South,Technology,Phone,Phone 18,413.45,1,0.12,248.42,12.42,Late,Warehouse A
+ORD-1091,2021-08-08,2021-08-13,Customer 91,Home Office,Los Angeles,Texas,South,Office Supplies,Binder,Binder 8,979.33,10,0.2,-43.51,34.98,On Time,Warehouse A
+ORD-1092,2020-06-07,2020-06-10,Customer 92,Home Office,Houston,Illinois,Central,Office Supplies,Binder,Binder 70,748.84,2,0.16,33.93,26.21,Late,Warehouse C
+ORD-1093,2021-10-24,2021-10-29,Customer 93,Consumer,Miami,New York,South,Furniture,Bookcase,Bookcase 16,864.18,2,0.21,78.31,20.9,Late,Warehouse C
+ORD-1094,2021-08-02,2021-08-03,Customer 94,Home Office,New York City,New York,South,Technology,Laptop,Laptop 2,388.79,9,0.02,-22.85,20.15,On Time,Warehouse B
+ORD-1095,2021-04-03,2021-04-08,Customer 95,Corporate,Chicago,Illinois,Central,Furniture,Table,Table 96,285.96,4,0.12,-2.72,44.3,Late,Warehouse B
+ORD-1096,2020-03-05,2020-03-11,Customer 96,Consumer,New York City,Florida,West,Office Supplies,Paper,Paper 77,891.53,10,0.07,110.3,35.68,Late,Warehouse A
+ORD-1097,2021-07-17,2021-07-19,Customer 97,Consumer,Houston,Texas,Central,Technology,Laptop,Laptop 81,614.93,8,0.09,-45.87,40.22,On Time,Warehouse C
+ORD-1098,2021-11-18,2021-11-24,Customer 98,Home Office,Houston,California,East,Furniture,Chair,Chair 89,646.51,1,0.04,262.38,33.96,On Time,Warehouse C
+ORD-1099,2020-10-02,2020-10-07,Customer 99,Home Office,New York City,Florida,South,Office Supplies,Paper,Paper 43,619.41,7,0.24,204.78,49.32,Late,Warehouse A
+ORD-1100,2021-10-19,2021-10-22,Customer 100,Home Office,Houston,Florida,Central,Technology,Monitor,Monitor 86,282.46,2,0.05,192.47,23.01,Late,Warehouse B
+ORD-1101,2021-09-04,2021-09-10,Customer 101,Home Office,Miami,California,East,Office Supplies,Paper,Paper 76,205.08,7,0.01,297.54,33.93,Late,Warehouse A
+ORD-1102,2020-12-01,2020-12-04,Customer 102,Corporate,Chicago,Texas,South,Furniture,Chair,Chair 43,251.35,7,0.25,-33.34,6.17,Late,Warehouse A
+ORD-1103,2021-12-12,2021-12-19,Customer 103,Corporate,Miami,California,East,Technology,Monitor,Monitor 8,275.95,5,0.13,97.78,41.51,On Time,Warehouse C
+ORD-1104,2021-05-31,2021-06-04,Customer 104,Consumer,Miami,Illinois,Central,Furniture,Bookcase,Bookcase 17,355.91,8,0.15,296.79,35.75,Late,Warehouse B
+ORD-1105,2020-08-06,2020-08-09,Customer 105,Consumer,New York City,New York,West,Furniture,Table,Table 17,575.97,3,0.05,215.02,12.75,Late,Warehouse A
+ORD-1106,2021-03-06,2021-03-08,Customer 106,Corporate,Miami,California,South,Technology,Monitor,Monitor 31,213.94,9,0.18,-30.71,16.08,Late,Warehouse B
+ORD-1107,2021-10-14,2021-10-16,Customer 107,Home Office,Houston,Texas,Central,Office Supplies,Paper,Paper 1,883.54,5,0.07,20.4,44.71,On Time,Warehouse B
+ORD-1108,2020-07-19,2020-07-21,Customer 108,Corporate,Chicago,New York,East,Furniture,Bookcase,Bookcase 1,390.75,9,0.0,144.92,26.61,Late,Warehouse A
+ORD-1109,2020-09-18,2020-09-23,Customer 109,Consumer,Los Angeles,California,Central,Furniture,Table,Table 93,307.12,1,0.15,283.95,12.35,Late,Warehouse C
+ORD-1110,2020-03-11,2020-03-18,Customer 110,Corporate,Miami,California,South,Furniture,Bookcase,Bookcase 62,601.93,7,0.02,-26.15,26.37,Late,Warehouse C
+ORD-1111,2020-11-02,2020-11-06,Customer 111,Consumer,Chicago,California,Central,Office Supplies,Paper,Paper 47,940.27,1,0.09,252.22,6.68,Late,Warehouse A
+ORD-1112,2021-01-20,2021-01-23,Customer 112,Corporate,New York City,Texas,East,Technology,Phone,Phone 70,47.15,2,0.04,6.07,48.19,Late,Warehouse A
+ORD-1113,2020-08-03,2020-08-04,Customer 113,Home Office,New York City,Texas,East,Office Supplies,Binder,Binder 61,140.64,1,0.09,274.19,41.87,Late,Warehouse A
+ORD-1114,2020-06-18,2020-06-19,Customer 114,Corporate,Los Angeles,Texas,East,Technology,Monitor,Monitor 70,177.28,3,0.15,216.86,47.59,On Time,Warehouse B
+ORD-1115,2020-09-02,2020-09-04,Customer 115,Consumer,Miami,Florida,Central,Office Supplies,Paper,Paper 94,563.17,5,0.16,157.01,15.56,Late,Warehouse B
+ORD-1116,2021-01-22,2021-01-29,Customer 116,Corporate,Houston,California,Central,Technology,Monitor,Monitor 7,508.09,8,0.21,-36.99,38.31,On Time,Warehouse B
+ORD-1117,2021-10-23,2021-10-24,Customer 117,Consumer,Miami,New York,West,Furniture,Table,Table 78,340.29,7,0.1,162.67,19.71,On Time,Warehouse A
+ORD-1118,2020-04-17,2020-04-22,Customer 118,Home Office,Chicago,California,West,Furniture,Bookcase,Bookcase 40,634.32,10,0.08,179.35,42.76,Late,Warehouse C
+ORD-1119,2021-09-01,2021-09-05,Customer 119,Home Office,Houston,Florida,Central,Furniture,Table,Table 1,133.96,6,0.17,294.74,19.86,On Time,Warehouse C
+ORD-1120,2020-03-08,2020-03-14,Customer 120,Consumer,Houston,Illinois,East,Technology,Laptop,Laptop 79,868.71,3,0.25,245.25,29.2,On Time,Warehouse B
+ORD-1121,2021-09-09,2021-09-13,Customer 121,Corporate,Houston,Illinois,South,Technology,Phone,Phone 66,37.92,10,0.06,66.8,8.7,Late,Warehouse B
+ORD-1122,2020-05-02,2020-05-07,Customer 122,Consumer,Los Angeles,California,South,Office Supplies,Paper,Paper 71,941.22,7,0.09,178.76,26.55,On Time,Warehouse A
+ORD-1123,2021-06-12,2021-06-17,Customer 123,Consumer,Los Angeles,Texas,East,Furniture,Chair,Chair 1,867.45,6,0.09,202.16,37.08,Late,Warehouse C
+ORD-1124,2020-05-03,2020-05-09,Customer 124,Home Office,Houston,California,West,Office Supplies,Paper,Paper 90,987.99,3,0.24,226.98,49.44,On Time,Warehouse A
+ORD-1125,2021-05-16,2021-05-21,Customer 125,Consumer,New York City,Illinois,Central,Furniture,Chair,Chair 10,16.34,4,0.11,70.13,39.47,Late,Warehouse B
+ORD-1126,2020-11-14,2020-11-17,Customer 126,Home Office,Miami,Illinois,West,Furniture,Chair,Chair 79,29.2,9,0.11,170.33,18.01,On Time,Warehouse A
+ORD-1127,2021-09-03,2021-09-10,Customer 127,Consumer,New York City,Illinois,East,Office Supplies,Pen,Pen 9,397.34,6,0.04,233.11,48.0,On Time,Warehouse C
+ORD-1128,2020-11-07,2020-11-12,Customer 128,Home Office,New York City,Texas,West,Furniture,Chair,Chair 99,279.62,7,0.08,219.95,32.37,On Time,Warehouse A
+ORD-1129,2020-06-18,2020-06-20,Customer 129,Corporate,Chicago,Florida,South,Furniture,Chair,Chair 48,386.14,5,0.0,5.44,12.29,Late,Warehouse C
+ORD-1130,2020-02-29,2020-03-04,Customer 130,Consumer,Houston,New York,South,Office Supplies,Paper,Paper 14,242.86,6,0.2,88.54,33.3,Late,Warehouse C
+ORD-1131,2021-07-12,2021-07-15,Customer 131,Home Office,Los Angeles,California,Central,Technology,Phone,Phone 44,220.59,9,0.27,252.13,25.62,Late,Warehouse A
+ORD-1132,2021-06-15,2021-06-17,Customer 132,Home Office,Miami,Illinois,South,Office Supplies,Paper,Paper 25,921.74,2,0.3,196.05,21.28,On Time,Warehouse B
+ORD-1133,2020-01-25,2020-01-26,Customer 133,Consumer,Miami,Illinois,West,Furniture,Bookcase,Bookcase 77,987.51,2,0.23,9.76,11.63,On Time,Warehouse A
+ORD-1134,2021-10-23,2021-10-28,Customer 134,Home Office,Los Angeles,Florida,Central,Technology,Laptop,Laptop 41,109.97,1,0.13,-6.28,34.09,Late,Warehouse B
+ORD-1135,2021-07-13,2021-07-15,Customer 135,Consumer,Chicago,New York,Central,Technology,Phone,Phone 93,875.95,3,0.1,129.61,38.29,Late,Warehouse B
+ORD-1136,2021-09-18,2021-09-19,Customer 136,Corporate,Miami,California,South,Office Supplies,Pen,Pen 22,957.96,9,0.04,193.84,26.31,On Time,Warehouse C
+ORD-1137,2021-07-28,2021-08-03,Customer 137,Consumer,Los Angeles,Florida,South,Technology,Phone,Phone 71,44.78,1,0.13,92.66,10.85,On Time,Warehouse B
+ORD-1138,2021-01-12,2021-01-19,Customer 138,Consumer,Chicago,Illinois,Central,Office Supplies,Paper,Paper 5,933.19,6,0.11,54.8,34.72,On Time,Warehouse A
+ORD-1139,2021-08-21,2021-08-27,Customer 139,Consumer,Los Angeles,California,South,Furniture,Table,Table 60,220.42,2,0.17,264.14,25.59,On Time,Warehouse B
+ORD-1140,2021-01-05,2021-01-08,Customer 140,Consumer,Miami,Florida,West,Furniture,Chair,Chair 25,395.37,10,0.02,90.01,21.42,Late,Warehouse A
+ORD-1141,2021-07-21,2021-07-23,Customer 141,Home Office,Houston,New York,East,Technology,Phone,Phone 77,882.3,8,0.02,181.37,15.51,Late,Warehouse C
+ORD-1142,2020-06-13,2020-06-18,Customer 142,Home Office,New York City,New York,West,Furniture,Table,Table 60,507.77,10,0.28,95.09,36.28,Late,Warehouse A
+ORD-1143,2021-10-10,2021-10-11,Customer 143,Corporate,Chicago,Texas,South,Office Supplies,Paper,Paper 98,414.0,1,0.14,283.05,46.67,On Time,Warehouse A
+ORD-1144,2020-02-05,2020-02-10,Customer 144,Home Office,New York City,Texas,East,Technology,Phone,Phone 62,232.47,2,0.24,-11.87,28.72,On Time,Warehouse C
+ORD-1145,2020-06-24,2020-06-25,Customer 145,Consumer,New York City,Texas,Central,Office Supplies,Paper,Paper 70,438.05,8,0.02,136.09,34.46,Late,Warehouse A
+ORD-1146,2020-06-20,2020-06-22,Customer 146,Home Office,Los Angeles,Illinois,Central,Technology,Monitor,Monitor 20,988.82,3,0.24,269.59,24.3,On Time,Warehouse B
+ORD-1147,2020-04-30,2020-05-04,Customer 147,Home Office,New York City,Texas,South,Furniture,Bookcase,Bookcase 40,235.81,5,0.02,210.01,23.33,Late,Warehouse B
+ORD-1148,2020-02-23,2020-02-27,Customer 148,Home Office,Los Angeles,California,Central,Office Supplies,Pen,Pen 4,297.61,6,0.05,129.76,5.5,On Time,Warehouse A
+ORD-1149,2021-10-16,2021-10-17,Customer 149,Home Office,Houston,Florida,Central,Furniture,Bookcase,Bookcase 22,295.93,7,0.06,161.68,11.21,Late,Warehouse A
+ORD-1150,2020-08-15,2020-08-20,Customer 150,Home Office,New York City,Florida,East,Technology,Laptop,Laptop 23,451.46,5,0.12,94.63,35.45,On Time,Warehouse B
+ORD-1151,2020-01-18,2020-01-21,Customer 151,Consumer,New York City,Illinois,East,Technology,Monitor,Monitor 37,347.88,6,0.12,93.87,17.62,Late,Warehouse A
+ORD-1152,2020-09-25,2020-09-28,Customer 152,Corporate,Houston,Florida,East,Furniture,Bookcase,Bookcase 70,944.28,8,0.13,-15.95,23.6,On Time,Warehouse C
+ORD-1153,2021-04-19,2021-04-24,Customer 153,Consumer,New York City,Florida,West,Furniture,Chair,Chair 56,511.41,6,0.16,69.23,14.7,Late,Warehouse A
+ORD-1154,2021-09-07,2021-09-12,Customer 154,Corporate,Chicago,California,East,Office Supplies,Pen,Pen 96,224.17,1,0.12,-20.61,39.02,Late,Warehouse A
+ORD-1155,2020-03-16,2020-03-23,Customer 155,Corporate,Houston,New York,East,Furniture,Table,Table 87,570.69,8,0.15,203.48,24.72,Late,Warehouse B
+ORD-1156,2021-06-17,2021-06-24,Customer 156,Home Office,Miami,Texas,West,Furniture,Bookcase,Bookcase 56,680.17,9,0.1,280.02,28.75,Late,Warehouse B
+ORD-1157,2021-04-04,2021-04-08,Customer 157,Consumer,Los Angeles,California,East,Technology,Phone,Phone 78,298.46,8,0.03,147.87,40.45,On Time,Warehouse B
+ORD-1158,2021-03-29,2021-04-03,Customer 158,Consumer,Houston,California,West,Technology,Phone,Phone 50,368.85,8,0.17,-20.44,19.91,Late,Warehouse A
+ORD-1159,2020-12-31,2021-01-03,Customer 159,Consumer,Houston,Illinois,East,Technology,Laptop,Laptop 92,316.22,6,0.13,-36.48,31.45,On Time,Warehouse C
+ORD-1160,2021-01-22,2021-01-29,Customer 160,Corporate,Chicago,California,East,Office Supplies,Paper,Paper 61,615.13,3,0.27,220.01,37.19,On Time,Warehouse C
+ORD-1161,2020-02-18,2020-02-24,Customer 161,Consumer,Houston,Texas,East,Office Supplies,Paper,Paper 70,905.53,6,0.24,99.17,14.89,On Time,Warehouse B
+ORD-1162,2021-06-23,2021-06-26,Customer 162,Corporate,Chicago,California,East,Technology,Phone,Phone 87,637.12,3,0.07,237.03,46.04,On Time,Warehouse C
+ORD-1163,2020-10-08,2020-10-15,Customer 163,Corporate,Houston,Florida,West,Office Supplies,Binder,Binder 30,340.99,6,0.3,167.87,13.23,Late,Warehouse A
+ORD-1164,2021-08-20,2021-08-24,Customer 164,Consumer,Houston,Florida,Central,Technology,Phone,Phone 42,725.45,5,0.11,35.19,29.19,On Time,Warehouse C
+ORD-1165,2020-04-13,2020-04-19,Customer 165,Corporate,Miami,Illinois,East,Technology,Laptop,Laptop 24,463.33,2,0.06,293.92,43.54,Late,Warehouse A
+ORD-1166,2021-10-03,2021-10-07,Customer 166,Corporate,Houston,California,East,Technology,Laptop,Laptop 25,190.67,10,0.09,-20.0,33.64,Late,Warehouse A
+ORD-1167,2021-04-09,2021-04-10,Customer 167,Home Office,Los Angeles,Illinois,West,Office Supplies,Paper,Paper 55,714.49,4,0.24,161.58,48.77,Late,Warehouse A
+ORD-1168,2020-02-22,2020-02-23,Customer 168,Corporate,Los Angeles,Florida,Central,Technology,Monitor,Monitor 11,699.15,2,0.12,277.67,38.95,On Time,Warehouse A
+ORD-1169,2020-08-17,2020-08-24,Customer 169,Corporate,Miami,Florida,East,Technology,Phone,Phone 8,970.8,9,0.24,1.57,10.18,On Time,Warehouse B
+ORD-1170,2020-12-12,2020-12-19,Customer 170,Home Office,New York City,New York,South,Furniture,Bookcase,Bookcase 50,302.41,7,0.22,241.93,33.13,Late,Warehouse B
+ORD-1171,2021-01-15,2021-01-17,Customer 171,Corporate,Miami,Illinois,West,Furniture,Chair,Chair 88,830.8,2,0.25,216.74,26.48,Late,Warehouse C
+ORD-1172,2021-11-22,2021-11-24,Customer 172,Corporate,Los Angeles,Florida,Central,Technology,Laptop,Laptop 35,910.16,2,0.13,68.39,13.53,Late,Warehouse A
+ORD-1173,2020-03-25,2020-03-28,Customer 173,Home Office,Houston,California,West,Technology,Phone,Phone 47,739.85,4,0.14,138.27,25.71,On Time,Warehouse A
+ORD-1174,2021-01-13,2021-01-14,Customer 174,Home Office,Los Angeles,Florida,South,Technology,Monitor,Monitor 46,783.59,1,0.02,13.12,49.75,On Time,Warehouse A
+ORD-1175,2021-10-22,2021-10-23,Customer 175,Home Office,Chicago,New York,East,Technology,Monitor,Monitor 92,415.32,6,0.25,123.51,46.08,On Time,Warehouse C
+ORD-1176,2021-07-20,2021-07-24,Customer 176,Consumer,New York City,Texas,South,Technology,Monitor,Monitor 5,447.5,5,0.03,269.96,24.52,Late,Warehouse C
+ORD-1177,2021-04-19,2021-04-20,Customer 177,Corporate,Houston,Illinois,South,Technology,Laptop,Laptop 55,873.35,2,0.08,221.03,21.04,Late,Warehouse C
+ORD-1178,2021-06-30,2021-07-03,Customer 178,Consumer,Chicago,New York,South,Furniture,Bookcase,Bookcase 76,20.36,1,0.25,114.73,13.84,On Time,Warehouse A
+ORD-1179,2021-04-14,2021-04-19,Customer 179,Consumer,Los Angeles,New York,Central,Technology,Monitor,Monitor 20,823.41,9,0.02,25.46,5.6,On Time,Warehouse B
+ORD-1180,2021-12-26,2021-12-29,Customer 180,Consumer,Houston,Texas,West,Furniture,Chair,Chair 81,284.83,4,0.19,191.83,38.76,Late,Warehouse A
+ORD-1181,2021-04-08,2021-04-13,Customer 181,Corporate,Los Angeles,Florida,East,Furniture,Bookcase,Bookcase 70,674.06,10,0.11,140.48,7.72,On Time,Warehouse A
+ORD-1182,2021-08-03,2021-08-06,Customer 182,Consumer,Los Angeles,Texas,Central,Furniture,Bookcase,Bookcase 16,46.21,3,0.05,9.47,40.98,Late,Warehouse B
+ORD-1183,2020-03-27,2020-03-29,Customer 183,Consumer,Los Angeles,New York,South,Furniture,Chair,Chair 59,414.6,1,0.18,-9.07,26.67,Late,Warehouse C
+ORD-1184,2021-01-14,2021-01-18,Customer 184,Consumer,Los Angeles,Texas,West,Furniture,Bookcase,Bookcase 45,315.75,10,0.27,183.98,30.78,On Time,Warehouse A
+ORD-1185,2021-05-28,2021-05-30,Customer 185,Consumer,Houston,Illinois,Central,Technology,Phone,Phone 35,888.12,8,0.21,14.89,48.98,On Time,Warehouse C
+ORD-1186,2020-05-15,2020-05-20,Customer 186,Home Office,Miami,Florida,West,Furniture,Table,Table 22,389.7,8,0.08,88.03,20.96,On Time,Warehouse A
+ORD-1187,2021-10-15,2021-10-17,Customer 187,Consumer,New York City,Florida,West,Technology,Phone,Phone 27,241.89,6,0.16,241.17,32.83,Late,Warehouse A
+ORD-1188,2021-11-08,2021-11-10,Customer 188,Consumer,Los Angeles,Florida,West,Office Supplies,Binder,Binder 92,914.89,2,0.13,131.38,29.21,Late,Warehouse B
+ORD-1189,2020-07-19,2020-07-22,Customer 189,Consumer,Chicago,Illinois,Central,Office Supplies,Pen,Pen 52,173.5,9,0.12,68.81,42.43,Late,Warehouse C
+ORD-1190,2020-10-27,2020-10-29,Customer 190,Corporate,Houston,Florida,West,Technology,Laptop,Laptop 99,580.55,4,0.29,268.47,13.62,On Time,Warehouse A
+ORD-1191,2020-11-23,2020-11-24,Customer 191,Home Office,Houston,Illinois,South,Technology,Laptop,Laptop 10,958.24,2,0.25,247.72,16.37,Late,Warehouse B
+ORD-1192,2020-04-03,2020-04-07,Customer 192,Consumer,Chicago,Illinois,East,Technology,Laptop,Laptop 36,320.42,5,0.3,30.15,19.74,On Time,Warehouse A
+ORD-1193,2020-04-05,2020-04-06,Customer 193,Corporate,New York City,Illinois,Central,Office Supplies,Binder,Binder 6,991.92,2,0.3,165.45,38.28,On Time,Warehouse B
+ORD-1194,2020-01-25,2020-01-28,Customer 194,Consumer,Houston,Illinois,East,Office Supplies,Paper,Paper 95,472.22,7,0.24,-26.35,37.13,Late,Warehouse C
+ORD-1195,2021-11-30,2021-12-03,Customer 195,Corporate,Houston,Illinois,West,Technology,Laptop,Laptop 18,21.22,1,0.07,-8.29,18.19,Late,Warehouse C
+ORD-1196,2020-01-31,2020-02-02,Customer 196,Corporate,Los Angeles,Florida,West,Furniture,Bookcase,Bookcase 21,605.37,2,0.09,130.71,19.12,Late,Warehouse C
+ORD-1197,2020-02-09,2020-02-12,Customer 197,Corporate,New York City,New York,East,Furniture,Bookcase,Bookcase 32,755.93,9,0.24,69.46,22.67,On Time,Warehouse A
+ORD-1198,2021-01-07,2021-01-12,Customer 198,Corporate,Houston,New York,West,Office Supplies,Binder,Binder 9,472.05,4,0.15,42.34,10.19,Late,Warehouse B
+ORD-1199,2021-01-30,2021-02-02,Customer 199,Corporate,Houston,Illinois,West,Office Supplies,Binder,Binder 24,169.92,4,0.17,94.84,36.89,On Time,Warehouse C
+ORD-1200,2020-05-22,2020-05-23,Customer 200,Home Office,Houston,Illinois,Central,Furniture,Bookcase,Bookcase 48,883.26,4,0.23,48.62,12.07,On Time,Warehouse A
+ORD-1201,2020-06-11,2020-06-12,Customer 201,Home Office,Houston,New York,Central,Office Supplies,Pen,Pen 84,792.99,3,0.17,130.37,47.12,On Time,Warehouse C
+ORD-1202,2021-01-23,2021-01-27,Customer 202,Consumer,Los Angeles,New York,West,Office Supplies,Pen,Pen 52,863.03,3,0.14,210.8,15.33,Late,Warehouse B
+ORD-1203,2020-04-30,2020-05-07,Customer 203,Consumer,Houston,California,West,Office Supplies,Pen,Pen 31,483.89,7,0.26,173.66,39.52,Late,Warehouse B
+ORD-1204,2021-10-16,2021-10-22,Customer 204,Corporate,Chicago,California,South,Technology,Phone,Phone 50,127.23,8,0.05,293.99,27.79,Late,Warehouse A
+ORD-1205,2020-07-12,2020-07-15,Customer 205,Home Office,Los Angeles,Texas,East,Furniture,Bookcase,Bookcase 67,353.95,8,0.07,99.76,20.93,Late,Warehouse C
+ORD-1206,2020-01-08,2020-01-12,Customer 206,Corporate,New York City,Illinois,East,Furniture,Chair,Chair 27,457.06,2,0.11,-14.28,12.05,On Time,Warehouse C
+ORD-1207,2020-06-06,2020-06-11,Customer 207,Consumer,Miami,California,East,Furniture,Table,Table 51,115.44,10,0.1,-3.37,9.52,On Time,Warehouse B
+ORD-1208,2020-09-12,2020-09-18,Customer 208,Home Office,Chicago,Illinois,West,Office Supplies,Paper,Paper 84,729.72,9,0.08,43.3,17.96,On Time,Warehouse B
+ORD-1209,2020-04-18,2020-04-23,Customer 209,Home Office,Chicago,California,Central,Technology,Phone,Phone 58,911.8,1,0.15,237.49,44.12,Late,Warehouse C
+ORD-1210,2020-05-18,2020-05-24,Customer 210,Consumer,New York City,California,East,Furniture,Table,Table 53,633.04,5,0.15,236.18,14.99,On Time,Warehouse B
+ORD-1211,2020-06-15,2020-06-19,Customer 211,Consumer,Houston,California,West,Office Supplies,Binder,Binder 2,87.0,2,0.28,18.5,8.51,Late,Warehouse A
+ORD-1212,2020-05-02,2020-05-04,Customer 212,Consumer,New York City,Texas,West,Furniture,Chair,Chair 56,925.84,4,0.21,131.24,42.62,On Time,Warehouse A
+ORD-1213,2021-01-18,2021-01-19,Customer 213,Home Office,Houston,Texas,West,Furniture,Table,Table 72,516.11,5,0.22,61.29,20.95,Late,Warehouse A
+ORD-1214,2020-04-01,2020-04-07,Customer 214,Consumer,Miami,Florida,West,Technology,Monitor,Monitor 67,101.42,5,0.21,213.08,16.57,Late,Warehouse B
+ORD-1215,2020-12-09,2020-12-11,Customer 215,Consumer,Chicago,California,East,Technology,Phone,Phone 20,875.51,8,0.13,231.55,21.87,Late,Warehouse C
+ORD-1216,2020-04-22,2020-04-26,Customer 216,Corporate,New York City,Illinois,West,Technology,Monitor,Monitor 21,355.43,5,0.22,165.37,7.11,Late,Warehouse C
+ORD-1217,2021-01-18,2021-01-25,Customer 217,Home Office,Miami,Texas,East,Technology,Laptop,Laptop 6,590.06,3,0.05,-36.39,41.0,On Time,Warehouse B
+ORD-1218,2021-09-07,2021-09-12,Customer 218,Home Office,Chicago,Texas,East,Technology,Laptop,Laptop 78,770.7,9,0.02,26.02,9.97,Late,Warehouse B
+ORD-1219,2020-08-09,2020-08-11,Customer 219,Corporate,Miami,Florida,South,Office Supplies,Binder,Binder 46,591.31,5,0.04,40.85,46.35,On Time,Warehouse C
+ORD-1220,2021-12-11,2021-12-13,Customer 220,Consumer,Chicago,Florida,Central,Technology,Phone,Phone 77,884.53,5,0.11,252.11,31.67,Late,Warehouse A
+ORD-1221,2020-03-24,2020-03-27,Customer 221,Corporate,Chicago,Texas,East,Office Supplies,Binder,Binder 39,301.74,4,0.04,29.68,44.6,Late,Warehouse C
+ORD-1222,2021-10-06,2021-10-12,Customer 222,Consumer,Los Angeles,California,West,Office Supplies,Binder,Binder 7,320.36,8,0.3,262.58,21.41,Late,Warehouse C
+ORD-1223,2021-08-25,2021-08-29,Customer 223,Home Office,Chicago,Florida,South,Technology,Laptop,Laptop 51,25.73,9,0.28,96.1,29.86,On Time,Warehouse A
+ORD-1224,2021-11-05,2021-11-08,Customer 224,Home Office,Houston,California,West,Furniture,Bookcase,Bookcase 6,199.5,2,0.16,-37.4,25.64,Late,Warehouse B
+ORD-1225,2021-07-26,2021-07-30,Customer 225,Corporate,Miami,New York,South,Furniture,Bookcase,Bookcase 74,34.09,10,0.02,257.43,35.37,On Time,Warehouse A
+ORD-1226,2020-04-05,2020-04-11,Customer 226,Consumer,New York City,New York,Central,Furniture,Table,Table 93,261.99,10,0.22,4.2,42.67,Late,Warehouse A
+ORD-1227,2020-05-13,2020-05-14,Customer 227,Corporate,Miami,New York,Central,Technology,Laptop,Laptop 85,494.89,1,0.01,72.7,19.33,On Time,Warehouse B
+ORD-1228,2020-09-02,2020-09-07,Customer 228,Consumer,Los Angeles,New York,South,Technology,Phone,Phone 70,545.77,10,0.26,120.43,42.36,On Time,Warehouse B
+ORD-1229,2020-09-09,2020-09-12,Customer 229,Consumer,Chicago,Texas,Central,Technology,Monitor,Monitor 90,761.83,3,0.21,177.33,23.31,Late,Warehouse C
+ORD-1230,2020-07-19,2020-07-20,Customer 230,Corporate,Houston,Florida,East,Office Supplies,Paper,Paper 83,914.91,6,0.25,143.66,16.82,Late,Warehouse A
+ORD-1231,2021-03-04,2021-03-09,Customer 231,Consumer,Los Angeles,Texas,West,Office Supplies,Paper,Paper 73,51.24,8,0.13,36.74,26.71,On Time,Warehouse A
+ORD-1232,2021-03-08,2021-03-10,Customer 232,Home Office,Los Angeles,Texas,South,Technology,Monitor,Monitor 4,148.91,1,0.09,203.1,25.96,On Time,Warehouse A
+ORD-1233,2021-02-07,2021-02-08,Customer 233,Corporate,Chicago,Texas,East,Office Supplies,Binder,Binder 48,360.56,4,0.03,103.24,28.26,Late,Warehouse C
+ORD-1234,2020-08-07,2020-08-11,Customer 234,Corporate,Los Angeles,New York,Central,Office Supplies,Binder,Binder 80,453.47,6,0.12,-21.57,19.08,Late,Warehouse A
+ORD-1235,2020-09-09,2020-09-15,Customer 235,Corporate,Houston,New York,East,Office Supplies,Paper,Paper 28,289.02,3,0.29,116.32,20.61,Late,Warehouse A
+ORD-1236,2020-08-27,2020-09-03,Customer 236,Consumer,Houston,New York,South,Technology,Phone,Phone 22,666.94,7,0.05,94.64,8.81,Late,Warehouse B
+ORD-1237,2020-02-21,2020-02-22,Customer 237,Consumer,Chicago,Texas,East,Technology,Monitor,Monitor 53,931.66,3,0.13,87.8,36.81,On Time,Warehouse A
+ORD-1238,2021-03-27,2021-04-02,Customer 238,Corporate,Houston,Illinois,South,Furniture,Bookcase,Bookcase 55,71.43,5,0.15,60.69,17.3,Late,Warehouse A
+ORD-1239,2021-09-15,2021-09-22,Customer 239,Home Office,New York City,Florida,West,Furniture,Chair,Chair 82,399.57,1,0.19,150.97,7.8,On Time,Warehouse B
+ORD-1240,2021-01-23,2021-01-30,Customer 240,Corporate,Miami,Illinois,West,Furniture,Chair,Chair 86,503.13,3,0.28,102.02,30.14,On Time,Warehouse C
+ORD-1241,2020-08-30,2020-09-03,Customer 241,Corporate,Houston,California,South,Office Supplies,Paper,Paper 3,65.87,9,0.08,83.55,23.42,Late,Warehouse C
+ORD-1242,2020-03-13,2020-03-19,Customer 242,Consumer,Houston,Texas,Central,Technology,Monitor,Monitor 65,738.99,9,0.19,-41.57,31.15,On Time,Warehouse C
+ORD-1243,2020-08-31,2020-09-02,Customer 243,Consumer,New York City,New York,South,Furniture,Chair,Chair 93,251.13,6,0.02,-13.89,5.21,On Time,Warehouse B
+ORD-1244,2021-08-15,2021-08-21,Customer 244,Home Office,Chicago,California,East,Office Supplies,Paper,Paper 60,939.8,2,0.18,71.06,33.21,Late,Warehouse B
+ORD-1245,2020-10-21,2020-10-26,Customer 245,Consumer,Miami,Florida,West,Office Supplies,Pen,Pen 43,287.58,3,0.01,95.1,46.84,Late,Warehouse A
+ORD-1246,2021-03-07,2021-03-09,Customer 246,Corporate,New York City,New York,Central,Furniture,Bookcase,Bookcase 8,762.34,2,0.14,-49.04,7.58,Late,Warehouse A
+ORD-1247,2021-04-17,2021-04-19,Customer 247,Consumer,Miami,Illinois,South,Office Supplies,Binder,Binder 23,324.29,1,0.01,244.92,24.17,On Time,Warehouse B
+ORD-1248,2020-04-29,2020-05-03,Customer 248,Corporate,New York City,California,Central,Technology,Phone,Phone 39,631.71,6,0.12,13.22,16.18,Late,Warehouse B
+ORD-1249,2020-06-09,2020-06-14,Customer 249,Consumer,New York City,Florida,East,Office Supplies,Pen,Pen 3,446.28,2,0.0,263.48,25.46,On Time,Warehouse A
+ORD-1250,2020-12-01,2020-12-02,Customer 250,Home Office,Miami,California,South,Furniture,Chair,Chair 94,252.88,1,0.23,-30.74,36.57,Late,Warehouse B
+ORD-1251,2021-08-03,2021-08-10,Customer 251,Corporate,Los Angeles,Florida,South,Technology,Monitor,Monitor 32,554.72,6,0.2,-14.99,48.01,On Time,Warehouse C
+ORD-1252,2021-04-17,2021-04-22,Customer 252,Corporate,Los Angeles,Texas,East,Office Supplies,Binder,Binder 18,166.75,3,0.1,237.86,38.72,Late,Warehouse B
+ORD-1253,2020-05-19,2020-05-22,Customer 253,Home Office,New York City,Florida,West,Technology,Phone,Phone 85,893.53,7,0.2,175.78,49.68,On Time,Warehouse B
+ORD-1254,2021-11-23,2021-11-24,Customer 254,Home Office,Miami,California,East,Furniture,Bookcase,Bookcase 84,955.62,1,0.08,17.51,47.16,Late,Warehouse C
+ORD-1255,2020-05-21,2020-05-27,Customer 255,Consumer,Los Angeles,New York,Central,Technology,Monitor,Monitor 100,230.74,10,0.0,173.35,35.59,On Time,Warehouse C
+ORD-1256,2021-01-08,2021-01-15,Customer 256,Home Office,Los Angeles,California,West,Furniture,Bookcase,Bookcase 67,449.79,10,0.16,232.31,19.68,On Time,Warehouse C
+ORD-1257,2021-05-13,2021-05-16,Customer 257,Corporate,Los Angeles,New York,South,Office Supplies,Binder,Binder 87,65.75,2,0.08,-16.88,46.95,On Time,Warehouse B
+ORD-1258,2020-08-13,2020-08-16,Customer 258,Corporate,New York City,Texas,East,Furniture,Table,Table 33,709.86,5,0.01,255.97,49.47,Late,Warehouse C
+ORD-1259,2021-11-07,2021-11-11,Customer 259,Consumer,Houston,New York,West,Technology,Phone,Phone 38,381.69,8,0.27,268.84,34.26,On Time,Warehouse A
+ORD-1260,2020-08-27,2020-08-31,Customer 260,Corporate,New York City,Illinois,South,Office Supplies,Paper,Paper 22,568.7,10,0.2,-3.49,31.18,On Time,Warehouse A
+ORD-1261,2020-09-25,2020-09-28,Customer 261,Home Office,Miami,California,West,Furniture,Bookcase,Bookcase 20,735.84,10,0.14,293.17,44.58,Late,Warehouse A
+ORD-1262,2021-04-12,2021-04-14,Customer 262,Corporate,Houston,New York,Central,Furniture,Chair,Chair 31,154.65,4,0.08,-4.61,42.68,On Time,Warehouse C
+ORD-1263,2020-05-13,2020-05-18,Customer 263,Home Office,Miami,Illinois,Central,Furniture,Bookcase,Bookcase 50,153.42,3,0.04,146.05,36.32,Late,Warehouse B
+ORD-1264,2020-11-27,2020-12-04,Customer 264,Corporate,Los Angeles,Texas,West,Furniture,Table,Table 57,10.5,9,0.16,8.46,11.91,On Time,Warehouse B
+ORD-1265,2020-02-23,2020-02-25,Customer 265,Consumer,Chicago,Florida,Central,Office Supplies,Binder,Binder 45,996.84,4,0.16,98.01,6.34,Late,Warehouse C
+ORD-1266,2020-06-03,2020-06-04,Customer 266,Consumer,Chicago,California,Central,Office Supplies,Binder,Binder 73,478.09,6,0.07,-43.8,39.12,Late,Warehouse A
+ORD-1267,2020-10-17,2020-10-22,Customer 267,Consumer,Chicago,Florida,East,Office Supplies,Binder,Binder 70,749.99,9,0.17,63.07,30.06,On Time,Warehouse A
+ORD-1268,2020-02-25,2020-03-02,Customer 268,Consumer,Los Angeles,California,Central,Office Supplies,Paper,Paper 49,963.81,10,0.19,111.83,14.56,Late,Warehouse C
+ORD-1269,2021-01-25,2021-01-27,Customer 269,Corporate,Miami,Florida,South,Office Supplies,Binder,Binder 23,437.76,3,0.13,15.12,28.32,On Time,Warehouse A
+ORD-1270,2021-10-20,2021-10-24,Customer 270,Home Office,Los Angeles,California,Central,Technology,Laptop,Laptop 37,678.25,4,0.01,12.68,48.56,On Time,Warehouse B
+ORD-1271,2021-09-24,2021-09-30,Customer 271,Home Office,Chicago,Illinois,West,Office Supplies,Paper,Paper 15,171.73,9,0.05,240.47,10.65,Late,Warehouse B
+ORD-1272,2020-02-24,2020-02-26,Customer 272,Consumer,Chicago,Florida,Central,Technology,Laptop,Laptop 64,321.44,2,0.14,255.66,38.54,Late,Warehouse A
+ORD-1273,2020-05-10,2020-05-17,Customer 273,Corporate,Los Angeles,Illinois,Central,Office Supplies,Paper,Paper 67,167.68,8,0.15,12.8,35.63,On Time,Warehouse B
+ORD-1274,2020-07-05,2020-07-12,Customer 274,Corporate,New York City,Illinois,West,Technology,Laptop,Laptop 42,662.55,7,0.02,68.18,45.4,Late,Warehouse A
+ORD-1275,2020-08-28,2020-08-31,Customer 275,Home Office,Los Angeles,New York,West,Technology,Monitor,Monitor 67,396.0,7,0.14,246.66,44.78,Late,Warehouse C
+ORD-1276,2021-12-28,2021-12-29,Customer 276,Corporate,Los Angeles,Texas,East,Office Supplies,Pen,Pen 51,553.42,5,0.16,63.34,49.99,Late,Warehouse A
+ORD-1277,2020-08-18,2020-08-21,Customer 277,Home Office,Los Angeles,Illinois,East,Technology,Monitor,Monitor 67,732.34,6,0.23,185.7,5.62,Late,Warehouse C
+ORD-1278,2021-12-22,2021-12-25,Customer 278,Home Office,Los Angeles,New York,West,Office Supplies,Binder,Binder 37,611.58,3,0.25,200.43,49.0,On Time,Warehouse A
+ORD-1279,2020-04-04,2020-04-06,Customer 279,Home Office,Miami,Illinois,South,Furniture,Chair,Chair 38,70.75,2,0.18,95.05,43.84,Late,Warehouse A
+ORD-1280,2020-11-03,2020-11-09,Customer 280,Corporate,Chicago,Texas,Central,Furniture,Bookcase,Bookcase 7,908.17,9,0.25,69.3,47.12,On Time,Warehouse B
+ORD-1281,2021-08-15,2021-08-18,Customer 281,Consumer,Los Angeles,Illinois,Central,Office Supplies,Pen,Pen 60,288.59,7,0.18,107.89,20.21,On Time,Warehouse B
+ORD-1282,2021-05-19,2021-05-22,Customer 282,Corporate,Houston,Illinois,East,Technology,Monitor,Monitor 65,871.44,9,0.04,47.39,47.16,Late,Warehouse C
+ORD-1283,2020-08-29,2020-09-04,Customer 283,Consumer,Houston,California,South,Furniture,Chair,Chair 36,155.52,5,0.2,274.0,35.33,On Time,Warehouse C
+ORD-1284,2020-06-11,2020-06-18,Customer 284,Home Office,Houston,Florida,East,Furniture,Bookcase,Bookcase 82,460.83,1,0.24,128.55,42.2,On Time,Warehouse A
+ORD-1285,2020-11-07,2020-11-11,Customer 285,Corporate,Houston,Texas,South,Furniture,Table,Table 80,197.4,7,0.04,94.25,35.33,Late,Warehouse B
+ORD-1286,2020-10-30,2020-11-01,Customer 286,Consumer,New York City,Illinois,West,Office Supplies,Paper,Paper 49,43.75,9,0.02,137.5,30.07,Late,Warehouse B
+ORD-1287,2021-07-17,2021-07-18,Customer 287,Home Office,Houston,California,East,Technology,Phone,Phone 100,519.38,3,0.16,292.15,19.89,On Time,Warehouse B
+ORD-1288,2021-06-18,2021-06-25,Customer 288,Consumer,Miami,Florida,Central,Technology,Laptop,Laptop 79,598.07,6,0.13,116.5,27.22,Late,Warehouse A
+ORD-1289,2020-12-10,2020-12-17,Customer 289,Consumer,Houston,Illinois,South,Technology,Monitor,Monitor 19,824.18,7,0.2,14.91,15.55,Late,Warehouse B
+ORD-1290,2021-07-09,2021-07-11,Customer 290,Corporate,Los Angeles,Florida,West,Office Supplies,Binder,Binder 67,392.3,4,0.05,-37.82,25.83,Late,Warehouse C
+ORD-1291,2020-08-18,2020-08-23,Customer 291,Consumer,Houston,Florida,West,Technology,Phone,Phone 69,555.34,2,0.1,3.02,5.99,On Time,Warehouse C
+ORD-1292,2020-10-01,2020-10-04,Customer 292,Corporate,Miami,California,Central,Furniture,Bookcase,Bookcase 5,634.26,5,0.06,153.56,6.27,On Time,Warehouse C
+ORD-1293,2021-01-27,2021-01-31,Customer 293,Corporate,Chicago,Texas,South,Technology,Laptop,Laptop 51,488.77,3,0.22,266.56,21.31,Late,Warehouse B
+ORD-1294,2021-09-16,2021-09-23,Customer 294,Home Office,Miami,Texas,West,Furniture,Chair,Chair 98,933.3,9,0.29,221.09,35.09,On Time,Warehouse B
+ORD-1295,2021-07-13,2021-07-20,Customer 295,Corporate,Miami,New York,East,Office Supplies,Binder,Binder 76,742.89,1,0.2,29.21,28.14,Late,Warehouse A
+ORD-1296,2020-10-29,2020-11-05,Customer 296,Home Office,Chicago,Florida,East,Technology,Monitor,Monitor 11,738.3,4,0.26,215.69,36.41,On Time,Warehouse A
+ORD-1297,2021-03-09,2021-03-11,Customer 297,Corporate,Miami,Illinois,East,Technology,Laptop,Laptop 37,995.18,7,0.27,140.73,18.45,Late,Warehouse C
+ORD-1298,2020-12-06,2020-12-07,Customer 298,Home Office,New York City,Illinois,South,Furniture,Table,Table 36,62.28,9,0.02,261.96,45.33,Late,Warehouse C
+ORD-1299,2020-08-02,2020-08-05,Customer 299,Home Office,Los Angeles,New York,Central,Office Supplies,Pen,Pen 53,757.69,10,0.22,-1.68,44.12,On Time,Warehouse B
+ORD-1300,2021-06-23,2021-06-27,Customer 300,Home Office,Chicago,Florida,South,Furniture,Table,Table 53,743.83,7,0.18,12.9,11.79,Late,Warehouse B
+ORD-1301,2020-08-17,2020-08-24,Customer 301,Corporate,Miami,Illinois,West,Technology,Laptop,Laptop 41,599.21,5,0.1,-5.46,18.64,On Time,Warehouse C
+ORD-1302,2020-05-24,2020-05-31,Customer 302,Consumer,Los Angeles,California,West,Technology,Laptop,Laptop 100,748.09,5,0.13,77.82,27.35,On Time,Warehouse B
+ORD-1303,2021-01-08,2021-01-15,Customer 303,Consumer,Miami,Illinois,South,Furniture,Chair,Chair 13,764.15,9,0.25,171.19,19.57,On Time,Warehouse B
+ORD-1304,2020-04-20,2020-04-24,Customer 304,Consumer,Los Angeles,Texas,East,Furniture,Bookcase,Bookcase 88,498.06,3,0.29,-32.36,32.98,Late,Warehouse B
+ORD-1305,2021-06-05,2021-06-08,Customer 305,Consumer,Los Angeles,New York,South,Office Supplies,Pen,Pen 19,11.3,10,0.11,298.91,33.72,Late,Warehouse A
+ORD-1306,2020-07-26,2020-08-01,Customer 306,Consumer,Houston,Florida,South,Technology,Monitor,Monitor 19,314.11,7,0.01,198.4,36.39,Late,Warehouse B
+ORD-1307,2020-03-08,2020-03-11,Customer 307,Consumer,Chicago,Illinois,West,Office Supplies,Binder,Binder 31,948.5,3,0.01,236.57,5.8,On Time,Warehouse A
+ORD-1308,2021-03-01,2021-03-08,Customer 308,Corporate,Miami,Illinois,Central,Office Supplies,Paper,Paper 47,725.79,5,0.16,244.0,47.32,On Time,Warehouse B
+ORD-1309,2020-01-26,2020-01-28,Customer 309,Consumer,New York City,Illinois,West,Technology,Laptop,Laptop 5,735.29,3,0.03,27.29,8.2,On Time,Warehouse A
+ORD-1310,2021-05-06,2021-05-08,Customer 310,Consumer,Los Angeles,New York,West,Office Supplies,Paper,Paper 85,936.28,10,0.17,85.57,13.73,On Time,Warehouse A
+ORD-1311,2021-06-12,2021-06-15,Customer 311,Home Office,Los Angeles,Florida,West,Office Supplies,Binder,Binder 76,584.4,6,0.06,-41.0,16.94,Late,Warehouse B
+ORD-1312,2021-07-20,2021-07-24,Customer 312,Home Office,Chicago,Florida,South,Technology,Laptop,Laptop 65,53.26,6,0.13,215.2,45.78,Late,Warehouse C
+ORD-1313,2021-09-21,2021-09-23,Customer 313,Corporate,New York City,California,South,Furniture,Chair,Chair 43,552.02,6,0.1,73.67,21.53,Late,Warehouse C
+ORD-1314,2020-04-17,2020-04-19,Customer 314,Home Office,Chicago,California,West,Office Supplies,Binder,Binder 31,815.25,4,0.24,159.63,9.33,On Time,Warehouse B
+ORD-1315,2020-05-24,2020-05-26,Customer 315,Corporate,New York City,Florida,South,Furniture,Table,Table 16,569.89,1,0.05,88.24,8.26,Late,Warehouse C
+ORD-1316,2021-12-11,2021-12-13,Customer 316,Consumer,Miami,New York,West,Office Supplies,Binder,Binder 95,29.79,4,0.18,32.92,13.4,Late,Warehouse B
+ORD-1317,2020-09-03,2020-09-08,Customer 317,Consumer,Chicago,New York,Central,Technology,Phone,Phone 5,900.39,7,0.16,248.93,48.74,Late,Warehouse B
+ORD-1318,2020-01-01,2020-01-07,Customer 318,Home Office,Miami,Illinois,West,Furniture,Table,Table 54,422.11,1,0.24,64.14,36.62,Late,Warehouse C
+ORD-1319,2021-12-11,2021-12-12,Customer 319,Consumer,Chicago,Texas,West,Technology,Monitor,Monitor 46,773.07,9,0.1,-24.71,32.87,Late,Warehouse A
+ORD-1320,2020-06-16,2020-06-18,Customer 320,Consumer,Houston,Florida,West,Furniture,Table,Table 100,949.86,2,0.05,31.89,12.25,Late,Warehouse C
+ORD-1321,2020-07-20,2020-07-24,Customer 321,Home Office,New York City,California,South,Technology,Laptop,Laptop 97,589.16,1,0.01,-26.59,45.92,Late,Warehouse C
+ORD-1322,2020-08-29,2020-09-01,Customer 322,Corporate,Chicago,Florida,Central,Office Supplies,Binder,Binder 49,381.45,4,0.18,131.66,37.16,Late,Warehouse B
+ORD-1323,2020-10-16,2020-10-21,Customer 323,Consumer,Houston,Texas,Central,Technology,Laptop,Laptop 36,915.85,4,0.14,144.5,33.2,On Time,Warehouse B
+ORD-1324,2020-01-07,2020-01-09,Customer 324,Home Office,Houston,Illinois,Central,Technology,Monitor,Monitor 7,65.25,5,0.07,-32.65,25.17,On Time,Warehouse B
+ORD-1325,2020-05-23,2020-05-28,Customer 325,Corporate,New York City,Texas,South,Furniture,Bookcase,Bookcase 96,285.3,5,0.2,153.53,15.79,Late,Warehouse A
+ORD-1326,2021-05-01,2021-05-04,Customer 326,Home Office,Miami,Florida,South,Technology,Laptop,Laptop 53,629.65,9,0.27,135.36,26.99,On Time,Warehouse C
+ORD-1327,2020-11-15,2020-11-22,Customer 327,Home Office,Houston,California,Central,Technology,Phone,Phone 93,741.71,5,0.07,76.16,19.01,Late,Warehouse C
+ORD-1328,2021-12-27,2021-12-28,Customer 328,Corporate,Los Angeles,California,West,Office Supplies,Paper,Paper 37,676.0,1,0.25,252.79,42.75,Late,Warehouse A
+ORD-1329,2021-08-23,2021-08-30,Customer 329,Consumer,Miami,Illinois,West,Office Supplies,Binder,Binder 90,416.65,1,0.21,80.55,47.69,Late,Warehouse A
+ORD-1330,2021-10-04,2021-10-05,Customer 330,Home Office,Los Angeles,California,South,Furniture,Bookcase,Bookcase 26,812.44,10,0.22,-12.48,20.32,On Time,Warehouse C
+ORD-1331,2021-04-04,2021-04-05,Customer 331,Consumer,Los Angeles,California,South,Technology,Phone,Phone 86,947.21,2,0.05,135.98,14.76,Late,Warehouse B
+ORD-1332,2020-04-29,2020-05-05,Customer 332,Home Office,Houston,Florida,West,Furniture,Chair,Chair 89,402.33,3,0.11,148.71,23.66,Late,Warehouse A
+ORD-1333,2020-07-12,2020-07-13,Customer 333,Corporate,Chicago,Texas,Central,Office Supplies,Pen,Pen 40,675.28,10,0.1,-14.85,26.93,Late,Warehouse C
+ORD-1334,2020-07-02,2020-07-09,Customer 334,Consumer,New York City,Illinois,Central,Furniture,Bookcase,Bookcase 6,786.55,5,0.25,206.77,5.28,Late,Warehouse B
+ORD-1335,2020-01-23,2020-01-30,Customer 335,Corporate,Chicago,Illinois,East,Technology,Phone,Phone 54,827.9,1,0.23,-42.42,8.2,Late,Warehouse C
+ORD-1336,2020-03-04,2020-03-09,Customer 336,Consumer,Miami,Florida,Central,Office Supplies,Binder,Binder 96,461.0,10,0.26,130.94,48.31,On Time,Warehouse B
+ORD-1337,2020-12-03,2020-12-06,Customer 337,Consumer,New York City,California,East,Technology,Monitor,Monitor 59,569.4,5,0.06,91.48,10.84,On Time,Warehouse C
+ORD-1338,2020-10-29,2020-11-05,Customer 338,Consumer,Miami,Texas,Central,Furniture,Chair,Chair 64,350.38,9,0.1,238.37,24.85,Late,Warehouse B
+ORD-1339,2020-10-08,2020-10-15,Customer 339,Consumer,Miami,New York,Central,Furniture,Chair,Chair 23,231.4,6,0.01,188.65,7.73,Late,Warehouse A
+ORD-1340,2021-12-09,2021-12-16,Customer 340,Home Office,Miami,New York,East,Furniture,Chair,Chair 3,71.08,4,0.13,294.91,41.44,On Time,Warehouse B
+ORD-1341,2020-07-18,2020-07-20,Customer 341,Home Office,Los Angeles,California,West,Technology,Monitor,Monitor 58,806.3,1,0.12,261.09,5.67,Late,Warehouse C
+ORD-1342,2020-04-12,2020-04-16,Customer 342,Corporate,Los Angeles,Texas,Central,Office Supplies,Binder,Binder 20,814.27,7,0.05,80.91,41.23,Late,Warehouse B
+ORD-1343,2020-01-09,2020-01-12,Customer 343,Consumer,Miami,California,West,Furniture,Bookcase,Bookcase 40,15.34,6,0.2,252.56,43.86,On Time,Warehouse A
+ORD-1344,2020-11-23,2020-11-30,Customer 344,Consumer,Chicago,New York,South,Furniture,Chair,Chair 38,31.42,9,0.28,-2.77,9.24,Late,Warehouse B
+ORD-1345,2020-07-05,2020-07-10,Customer 345,Corporate,Los Angeles,New York,East,Furniture,Table,Table 9,205.35,1,0.25,102.85,7.53,On Time,Warehouse B
+ORD-1346,2021-08-18,2021-08-21,Customer 346,Home Office,Chicago,New York,East,Technology,Laptop,Laptop 90,895.75,8,0.19,251.35,42.16,Late,Warehouse C
+ORD-1347,2020-11-04,2020-11-11,Customer 347,Corporate,New York City,New York,East,Technology,Phone,Phone 30,859.1,5,0.13,-45.93,10.38,On Time,Warehouse B
+ORD-1348,2021-11-11,2021-11-18,Customer 348,Home Office,Miami,Florida,South,Furniture,Table,Table 53,652.65,1,0.25,93.32,20.35,Late,Warehouse C
+ORD-1349,2020-09-30,2020-10-07,Customer 349,Consumer,Chicago,Illinois,South,Office Supplies,Pen,Pen 98,180.43,10,0.03,77.34,47.44,Late,Warehouse B
+ORD-1350,2021-10-07,2021-10-08,Customer 350,Home Office,Miami,Illinois,West,Furniture,Chair,Chair 49,628.58,3,0.18,46.05,34.57,Late,Warehouse C
+ORD-1351,2021-04-30,2021-05-05,Customer 351,Corporate,Chicago,California,South,Furniture,Bookcase,Bookcase 15,829.93,10,0.22,42.15,23.64,On Time,Warehouse B
+ORD-1352,2021-03-04,2021-03-09,Customer 352,Home Office,Los Angeles,New York,East,Technology,Laptop,Laptop 37,464.13,5,0.13,282.0,14.78,On Time,Warehouse A
+ORD-1353,2021-12-20,2021-12-26,Customer 353,Consumer,Miami,Texas,West,Furniture,Bookcase,Bookcase 62,414.74,3,0.27,-21.7,30.64,On Time,Warehouse C
+ORD-1354,2021-01-17,2021-01-20,Customer 354,Corporate,Houston,Texas,South,Office Supplies,Paper,Paper 7,128.62,2,0.2,42.64,36.37,Late,Warehouse A
+ORD-1355,2021-05-06,2021-05-13,Customer 355,Corporate,Los Angeles,New York,West,Furniture,Chair,Chair 15,728.18,1,0.27,-16.02,33.2,Late,Warehouse C
+ORD-1356,2020-09-21,2020-09-28,Customer 356,Home Office,New York City,Illinois,Central,Technology,Laptop,Laptop 65,740.12,1,0.15,261.44,13.39,On Time,Warehouse B
+ORD-1357,2020-06-26,2020-06-29,Customer 357,Consumer,New York City,California,East,Furniture,Table,Table 77,495.98,3,0.27,102.31,48.19,Late,Warehouse A
+ORD-1358,2021-12-10,2021-12-17,Customer 358,Consumer,Chicago,New York,South,Furniture,Bookcase,Bookcase 42,653.63,10,0.09,41.38,18.22,Late,Warehouse C
+ORD-1359,2021-09-08,2021-09-11,Customer 359,Corporate,Los Angeles,New York,East,Furniture,Chair,Chair 23,344.85,9,0.1,159.74,17.47,Late,Warehouse A
+ORD-1360,2020-03-08,2020-03-14,Customer 360,Corporate,New York City,Florida,East,Furniture,Chair,Chair 13,985.84,1,0.28,141.24,27.55,Late,Warehouse C
+ORD-1361,2020-07-25,2020-07-27,Customer 361,Home Office,New York City,New York,South,Furniture,Chair,Chair 43,933.67,9,0.28,165.69,20.92,On Time,Warehouse C
+ORD-1362,2021-11-19,2021-11-26,Customer 362,Corporate,Miami,Florida,West,Technology,Phone,Phone 36,171.97,5,0.23,72.34,43.05,Late,Warehouse C
+ORD-1363,2021-07-31,2021-08-01,Customer 363,Consumer,Los Angeles,Illinois,East,Furniture,Chair,Chair 86,277.53,6,0.28,161.05,34.44,On Time,Warehouse A
+ORD-1364,2020-01-26,2020-02-02,Customer 364,Corporate,Houston,Texas,West,Office Supplies,Binder,Binder 54,16.24,8,0.25,278.92,18.32,On Time,Warehouse A
+ORD-1365,2021-07-20,2021-07-26,Customer 365,Consumer,Chicago,California,East,Technology,Laptop,Laptop 7,294.23,2,0.03,71.1,11.74,On Time,Warehouse A
+ORD-1366,2021-10-25,2021-10-28,Customer 366,Consumer,Houston,New York,South,Office Supplies,Pen,Pen 80,441.89,10,0.21,259.43,46.27,On Time,Warehouse B
+ORD-1367,2020-11-23,2020-11-29,Customer 367,Consumer,New York City,Illinois,South,Office Supplies,Paper,Paper 72,553.51,2,0.0,214.89,16.65,On Time,Warehouse A
+ORD-1368,2020-08-07,2020-08-11,Customer 368,Consumer,New York City,New York,Central,Technology,Phone,Phone 76,706.54,1,0.04,215.77,40.73,On Time,Warehouse A
+ORD-1369,2020-09-01,2020-09-08,Customer 369,Corporate,New York City,Florida,East,Technology,Monitor,Monitor 18,422.47,8,0.13,182.49,36.7,Late,Warehouse C
+ORD-1370,2020-12-13,2020-12-17,Customer 370,Home Office,New York City,California,East,Technology,Laptop,Laptop 94,745.32,4,0.09,77.76,17.88,On Time,Warehouse A
+ORD-1371,2020-07-11,2020-07-13,Customer 371,Home Office,Los Angeles,Texas,South,Furniture,Table,Table 95,406.95,7,0.09,232.08,40.15,Late,Warehouse B
+ORD-1372,2021-04-12,2021-04-18,Customer 372,Consumer,Chicago,Illinois,Central,Office Supplies,Pen,Pen 34,813.73,8,0.27,100.04,37.33,On Time,Warehouse C
+ORD-1373,2020-07-22,2020-07-29,Customer 373,Corporate,New York City,New York,South,Technology,Monitor,Monitor 94,527.31,4,0.01,171.95,10.6,Late,Warehouse C
+ORD-1374,2020-04-01,2020-04-02,Customer 374,Consumer,Los Angeles,Texas,South,Office Supplies,Paper,Paper 96,401.66,9,0.08,-9.55,46.67,On Time,Warehouse A
+ORD-1375,2020-06-04,2020-06-11,Customer 375,Corporate,Los Angeles,Illinois,East,Technology,Phone,Phone 40,996.58,5,0.08,43.28,42.8,Late,Warehouse C
+ORD-1376,2021-03-01,2021-03-05,Customer 376,Corporate,Los Angeles,Illinois,East,Office Supplies,Paper,Paper 16,375.47,2,0.12,-43.85,25.01,On Time,Warehouse A
+ORD-1377,2021-04-25,2021-04-27,Customer 377,Consumer,New York City,California,West,Technology,Monitor,Monitor 13,801.71,6,0.12,32.07,42.93,On Time,Warehouse C
+ORD-1378,2021-05-05,2021-05-12,Customer 378,Consumer,Miami,Illinois,East,Technology,Monitor,Monitor 80,394.62,6,0.11,60.69,24.37,Late,Warehouse B
+ORD-1379,2021-07-14,2021-07-18,Customer 379,Corporate,Chicago,Illinois,West,Office Supplies,Binder,Binder 94,798.4,6,0.15,252.68,38.85,On Time,Warehouse A
+ORD-1380,2020-10-13,2020-10-18,Customer 380,Home Office,Miami,Texas,South,Office Supplies,Paper,Paper 59,463.7,6,0.19,149.12,29.78,On Time,Warehouse B
+ORD-1381,2020-02-13,2020-02-16,Customer 381,Home Office,Miami,New York,East,Furniture,Table,Table 69,932.7,3,0.24,152.93,32.41,On Time,Warehouse B
+ORD-1382,2021-10-05,2021-10-11,Customer 382,Corporate,Chicago,California,Central,Technology,Monitor,Monitor 69,292.41,9,0.07,299.7,49.92,Late,Warehouse A
+ORD-1383,2021-01-08,2021-01-11,Customer 383,Home Office,Los Angeles,Texas,East,Office Supplies,Paper,Paper 31,690.17,9,0.29,126.7,33.57,On Time,Warehouse A
+ORD-1384,2020-11-14,2020-11-19,Customer 384,Home Office,New York City,California,Central,Technology,Monitor,Monitor 49,540.74,3,0.27,185.62,7.42,On Time,Warehouse A
+ORD-1385,2021-01-31,2021-02-03,Customer 385,Consumer,Houston,Florida,Central,Furniture,Table,Table 53,610.13,3,0.19,151.17,29.99,On Time,Warehouse B
+ORD-1386,2020-09-22,2020-09-26,Customer 386,Consumer,Los Angeles,Florida,South,Office Supplies,Pen,Pen 92,389.96,7,0.21,298.58,11.48,Late,Warehouse A
+ORD-1387,2020-04-20,2020-04-25,Customer 387,Home Office,Los Angeles,New York,West,Technology,Monitor,Monitor 4,258.68,9,0.06,86.44,31.36,Late,Warehouse C
+ORD-1388,2021-09-09,2021-09-10,Customer 388,Home Office,Houston,New York,East,Technology,Laptop,Laptop 58,374.55,7,0.04,281.0,33.41,Late,Warehouse C
+ORD-1389,2021-04-13,2021-04-14,Customer 389,Corporate,Los Angeles,Illinois,West,Furniture,Bookcase,Bookcase 80,207.73,10,0.22,-44.49,30.3,Late,Warehouse A
+ORD-1390,2021-08-19,2021-08-26,Customer 390,Consumer,New York City,California,Central,Office Supplies,Pen,Pen 15,936.13,7,0.25,144.64,25.58,Late,Warehouse C
+ORD-1391,2021-02-08,2021-02-15,Customer 391,Corporate,Chicago,Illinois,Central,Technology,Monitor,Monitor 22,837.42,7,0.17,178.42,39.53,On Time,Warehouse C
+ORD-1392,2020-03-17,2020-03-23,Customer 392,Home Office,Miami,Florida,East,Office Supplies,Paper,Paper 88,289.04,10,0.23,-1.87,25.49,Late,Warehouse B
+ORD-1393,2020-10-04,2020-10-06,Customer 393,Home Office,New York City,Illinois,South,Office Supplies,Binder,Binder 32,659.11,10,0.01,58.39,20.07,Late,Warehouse B
+ORD-1394,2020-10-29,2020-11-03,Customer 394,Corporate,Chicago,Illinois,Central,Technology,Monitor,Monitor 60,923.91,2,0.14,55.38,46.99,On Time,Warehouse A
+ORD-1395,2020-10-28,2020-11-03,Customer 395,Home Office,Los Angeles,California,Central,Technology,Monitor,Monitor 60,905.55,7,0.14,-42.9,30.99,On Time,Warehouse B
+ORD-1396,2020-08-23,2020-08-24,Customer 396,Consumer,Los Angeles,Illinois,Central,Technology,Monitor,Monitor 59,94.23,3,0.3,50.58,33.09,Late,Warehouse C
+ORD-1397,2021-03-09,2021-03-12,Customer 397,Consumer,Chicago,Texas,Central,Office Supplies,Paper,Paper 50,829.48,3,0.28,258.92,16.33,Late,Warehouse B
+ORD-1398,2021-12-24,2021-12-26,Customer 398,Consumer,Miami,New York,East,Furniture,Table,Table 79,17.07,4,0.3,151.22,40.88,On Time,Warehouse C
+ORD-1399,2020-02-17,2020-02-21,Customer 399,Consumer,Miami,Florida,Central,Furniture,Table,Table 12,841.02,9,0.16,152.67,30.54,Late,Warehouse A
+ORD-1400,2021-12-02,2021-12-06,Customer 400,Corporate,New York City,Illinois,South,Office Supplies,Paper,Paper 31,594.12,6,0.08,75.58,37.04,Late,Warehouse A
+ORD-1401,2020-04-20,2020-04-22,Customer 401,Consumer,Houston,California,Central,Furniture,Chair,Chair 80,267.15,5,0.26,226.01,21.47,Late,Warehouse B
+ORD-1402,2020-06-21,2020-06-22,Customer 402,Home Office,Chicago,Texas,Central,Office Supplies,Pen,Pen 92,411.09,6,0.22,82.81,37.92,Late,Warehouse A
+ORD-1403,2021-07-16,2021-07-23,Customer 403,Home Office,Miami,California,West,Furniture,Bookcase,Bookcase 18,132.75,2,0.09,144.86,16.32,Late,Warehouse A
+ORD-1404,2020-10-31,2020-11-01,Customer 404,Home Office,New York City,Illinois,West,Technology,Phone,Phone 27,43.94,8,0.15,160.71,26.36,On Time,Warehouse C
+ORD-1405,2021-04-15,2021-04-18,Customer 405,Consumer,Chicago,New York,East,Furniture,Bookcase,Bookcase 95,159.01,6,0.14,240.44,28.0,On Time,Warehouse A
+ORD-1406,2020-08-06,2020-08-09,Customer 406,Home Office,Houston,California,Central,Technology,Phone,Phone 4,339.78,1,0.28,16.17,7.39,Late,Warehouse A
+ORD-1407,2020-08-30,2020-09-02,Customer 407,Consumer,New York City,Florida,Central,Technology,Laptop,Laptop 54,265.85,8,0.17,164.34,16.28,Late,Warehouse C
+ORD-1408,2021-08-12,2021-08-15,Customer 408,Consumer,Los Angeles,Illinois,East,Technology,Laptop,Laptop 2,164.87,2,0.16,276.8,38.02,On Time,Warehouse C
+ORD-1409,2020-06-26,2020-07-03,Customer 409,Home Office,Houston,Florida,West,Office Supplies,Pen,Pen 84,226.08,1,0.09,116.33,26.07,Late,Warehouse B
+ORD-1410,2021-01-30,2021-02-06,Customer 410,Corporate,Houston,New York,West,Technology,Phone,Phone 92,204.33,2,0.11,50.37,13.89,Late,Warehouse C
+ORD-1411,2021-10-08,2021-10-11,Customer 411,Home Office,Miami,Florida,Central,Furniture,Bookcase,Bookcase 38,293.62,9,0.01,138.15,40.8,Late,Warehouse B
+ORD-1412,2021-03-19,2021-03-26,Customer 412,Corporate,New York City,Florida,South,Office Supplies,Pen,Pen 30,285.91,2,0.01,-2.46,44.62,Late,Warehouse C
+ORD-1413,2020-02-29,2020-03-07,Customer 413,Consumer,Houston,California,East,Furniture,Table,Table 66,89.28,3,0.02,144.46,18.91,Late,Warehouse C
+ORD-1414,2020-04-08,2020-04-09,Customer 414,Corporate,New York City,Florida,Central,Furniture,Bookcase,Bookcase 58,715.52,1,0.24,-18.65,6.22,On Time,Warehouse C
+ORD-1415,2020-10-11,2020-10-17,Customer 415,Consumer,Houston,Florida,Central,Office Supplies,Pen,Pen 32,284.29,2,0.2,39.96,35.53,Late,Warehouse B
+ORD-1416,2021-09-18,2021-09-22,Customer 416,Consumer,Chicago,California,East,Office Supplies,Paper,Paper 15,255.45,3,0.23,11.05,16.05,Late,Warehouse A
+ORD-1417,2021-01-11,2021-01-14,Customer 417,Corporate,Los Angeles,New York,South,Technology,Phone,Phone 16,521.51,8,0.22,158.77,21.69,Late,Warehouse C
+ORD-1418,2021-09-22,2021-09-24,Customer 418,Corporate,Chicago,Florida,South,Office Supplies,Paper,Paper 85,187.93,4,0.01,157.21,14.92,Late,Warehouse A
+ORD-1419,2021-05-31,2021-06-04,Customer 419,Corporate,Miami,California,South,Technology,Monitor,Monitor 82,511.49,1,0.19,239.64,10.87,On Time,Warehouse C
+ORD-1420,2021-07-16,2021-07-21,Customer 420,Corporate,New York City,Florida,Central,Technology,Monitor,Monitor 26,641.05,4,0.29,188.87,46.13,Late,Warehouse A
+ORD-1421,2020-03-12,2020-03-14,Customer 421,Consumer,Chicago,Illinois,West,Office Supplies,Binder,Binder 30,182.83,6,0.2,299.95,12.68,Late,Warehouse C
+ORD-1422,2021-06-29,2021-07-06,Customer 422,Corporate,New York City,California,East,Office Supplies,Pen,Pen 14,838.13,1,0.19,-3.56,27.82,On Time,Warehouse B
+ORD-1423,2021-01-09,2021-01-16,Customer 423,Corporate,Los Angeles,New York,East,Technology,Laptop,Laptop 78,325.94,9,0.03,296.71,24.21,On Time,Warehouse B
+ORD-1424,2020-01-09,2020-01-15,Customer 424,Corporate,Houston,California,East,Office Supplies,Pen,Pen 41,166.17,3,0.19,102.31,28.11,On Time,Warehouse C
+ORD-1425,2021-09-30,2021-10-07,Customer 425,Corporate,Chicago,Texas,West,Furniture,Chair,Chair 3,997.36,7,0.14,71.05,18.46,Late,Warehouse A
+ORD-1426,2021-11-01,2021-11-03,Customer 426,Consumer,Miami,New York,West,Furniture,Table,Table 9,140.26,1,0.02,11.03,23.09,Late,Warehouse B
+ORD-1427,2021-02-28,2021-03-07,Customer 427,Corporate,Los Angeles,New York,West,Furniture,Table,Table 80,687.04,10,0.04,81.17,40.8,On Time,Warehouse C
+ORD-1428,2021-03-22,2021-03-28,Customer 428,Consumer,Los Angeles,Illinois,Central,Office Supplies,Pen,Pen 50,338.5,6,0.28,44.21,14.59,On Time,Warehouse B
+ORD-1429,2020-10-03,2020-10-09,Customer 429,Consumer,Los Angeles,Illinois,East,Furniture,Table,Table 86,934.39,2,0.23,-34.56,39.54,Late,Warehouse B
+ORD-1430,2021-07-31,2021-08-03,Customer 430,Corporate,Houston,California,Central,Technology,Laptop,Laptop 78,91.97,3,0.21,101.23,32.23,On Time,Warehouse B
+ORD-1431,2020-04-10,2020-04-17,Customer 431,Consumer,Los Angeles,California,West,Furniture,Chair,Chair 76,470.11,5,0.01,101.25,18.57,Late,Warehouse C
+ORD-1432,2021-03-09,2021-03-11,Customer 432,Home Office,Chicago,New York,Central,Furniture,Bookcase,Bookcase 81,856.17,5,0.19,135.93,13.19,On Time,Warehouse A
+ORD-1433,2021-08-24,2021-08-28,Customer 433,Corporate,Miami,California,West,Furniture,Bookcase,Bookcase 63,310.22,3,0.01,249.3,47.13,On Time,Warehouse B
+ORD-1434,2020-05-30,2020-06-06,Customer 434,Corporate,Miami,Florida,Central,Furniture,Table,Table 98,779.74,6,0.12,-30.68,20.72,On Time,Warehouse B
+ORD-1435,2021-10-10,2021-10-12,Customer 435,Corporate,Houston,Texas,South,Technology,Laptop,Laptop 92,46.56,9,0.3,235.89,33.26,On Time,Warehouse A
+ORD-1436,2021-06-13,2021-06-14,Customer 436,Consumer,Los Angeles,Texas,West,Furniture,Bookcase,Bookcase 7,917.48,5,0.19,39.29,38.21,On Time,Warehouse C
+ORD-1437,2021-07-02,2021-07-04,Customer 437,Corporate,Miami,Illinois,East,Technology,Phone,Phone 88,870.28,4,0.23,128.28,7.17,On Time,Warehouse C
+ORD-1438,2021-08-26,2021-08-29,Customer 438,Home Office,Miami,California,South,Office Supplies,Binder,Binder 30,697.49,6,0.26,234.15,23.97,Late,Warehouse B
+ORD-1439,2020-04-18,2020-04-22,Customer 439,Home Office,Los Angeles,Illinois,South,Furniture,Chair,Chair 8,554.96,1,0.25,77.97,12.41,On Time,Warehouse B
+ORD-1440,2020-03-10,2020-03-12,Customer 440,Consumer,Los Angeles,Texas,West,Office Supplies,Pen,Pen 67,283.09,6,0.29,255.38,35.44,Late,Warehouse C
+ORD-1441,2021-11-26,2021-11-30,Customer 441,Home Office,Chicago,New York,South,Office Supplies,Binder,Binder 87,462.25,8,0.16,192.81,36.17,Late,Warehouse A
+ORD-1442,2020-05-27,2020-06-02,Customer 442,Corporate,Los Angeles,California,East,Furniture,Table,Table 13,437.59,6,0.14,255.9,31.45,On Time,Warehouse B
+ORD-1443,2021-07-01,2021-07-04,Customer 443,Consumer,New York City,Florida,West,Furniture,Table,Table 100,288.42,8,0.26,-45.62,26.08,On Time,Warehouse A
+ORD-1444,2020-07-22,2020-07-25,Customer 444,Corporate,Chicago,Texas,South,Technology,Monitor,Monitor 98,541.25,2,0.08,9.85,45.69,On Time,Warehouse A
+ORD-1445,2020-04-14,2020-04-20,Customer 445,Corporate,Los Angeles,California,Central,Furniture,Table,Table 19,506.14,10,0.16,206.23,29.71,On Time,Warehouse B
+ORD-1446,2020-10-12,2020-10-18,Customer 446,Consumer,Miami,Florida,East,Technology,Phone,Phone 44,826.5,10,0.14,58.33,33.05,Late,Warehouse C
+ORD-1447,2021-09-07,2021-09-12,Customer 447,Corporate,Los Angeles,Texas,Central,Office Supplies,Pen,Pen 40,544.01,5,0.23,-48.76,45.57,Late,Warehouse B
+ORD-1448,2020-07-27,2020-08-03,Customer 448,Consumer,New York City,Florida,Central,Technology,Monitor,Monitor 94,550.91,5,0.27,-49.97,48.29,On Time,Warehouse C
+ORD-1449,2021-12-09,2021-12-13,Customer 449,Home Office,Los Angeles,California,Central,Technology,Laptop,Laptop 80,299.38,6,0.11,2.92,42.44,On Time,Warehouse B
+ORD-1450,2020-05-16,2020-05-18,Customer 450,Consumer,Chicago,California,East,Furniture,Chair,Chair 94,164.87,7,0.03,44.78,19.41,On Time,Warehouse B
+ORD-1451,2020-08-27,2020-09-03,Customer 451,Consumer,New York City,Texas,Central,Technology,Phone,Phone 53,93.03,9,0.24,225.71,46.24,Late,Warehouse C
+ORD-1452,2020-10-08,2020-10-14,Customer 452,Corporate,Miami,Illinois,East,Furniture,Table,Table 20,176.51,3,0.17,-39.52,22.38,On Time,Warehouse B
+ORD-1453,2020-06-10,2020-06-11,Customer 453,Corporate,Miami,New York,Central,Office Supplies,Pen,Pen 93,391.6,5,0.09,285.7,7.69,Late,Warehouse B
+ORD-1454,2020-03-10,2020-03-15,Customer 454,Home Office,Houston,Texas,Central,Office Supplies,Pen,Pen 11,930.49,10,0.2,182.06,8.63,Late,Warehouse C
+ORD-1455,2021-10-21,2021-10-22,Customer 455,Home Office,New York City,Illinois,Central,Office Supplies,Binder,Binder 52,743.07,3,0.25,-37.65,6.21,On Time,Warehouse A
+ORD-1456,2020-10-28,2020-10-31,Customer 456,Home Office,Los Angeles,Illinois,East,Technology,Laptop,Laptop 1,491.75,7,0.04,-40.97,48.74,On Time,Warehouse A
+ORD-1457,2020-10-07,2020-10-09,Customer 457,Home Office,Chicago,Illinois,Central,Technology,Monitor,Monitor 34,345.37,8,0.05,284.57,6.94,Late,Warehouse A
+ORD-1458,2020-05-22,2020-05-29,Customer 458,Consumer,Chicago,New York,Central,Office Supplies,Binder,Binder 25,649.37,9,0.23,66.11,11.59,On Time,Warehouse A
+ORD-1459,2021-03-24,2021-03-27,Customer 459,Consumer,Houston,New York,West,Office Supplies,Paper,Paper 75,328.68,6,0.24,298.11,31.71,On Time,Warehouse C
+ORD-1460,2021-02-21,2021-02-22,Customer 460,Corporate,Los Angeles,California,East,Technology,Laptop,Laptop 93,335.44,2,0.22,273.27,45.41,Late,Warehouse A
+ORD-1461,2020-09-22,2020-09-24,Customer 461,Home Office,Chicago,Florida,East,Furniture,Table,Table 58,447.54,3,0.13,234.63,47.35,On Time,Warehouse A
+ORD-1462,2021-02-14,2021-02-15,Customer 462,Home Office,Miami,Florida,South,Furniture,Bookcase,Bookcase 98,886.21,7,0.04,259.63,45.47,Late,Warehouse C
+ORD-1463,2021-02-10,2021-02-11,Customer 463,Home Office,Houston,New York,East,Technology,Laptop,Laptop 22,682.98,7,0.18,155.37,9.53,Late,Warehouse A
+ORD-1464,2021-08-20,2021-08-23,Customer 464,Corporate,Chicago,Florida,Central,Furniture,Table,Table 96,352.08,2,0.23,37.64,45.24,Late,Warehouse A
+ORD-1465,2020-09-21,2020-09-27,Customer 465,Consumer,Los Angeles,Florida,West,Furniture,Table,Table 6,87.33,10,0.0,82.72,32.95,On Time,Warehouse A
+ORD-1466,2020-09-17,2020-09-20,Customer 466,Corporate,Miami,Florida,Central,Office Supplies,Paper,Paper 61,499.03,6,0.01,-7.93,47.75,On Time,Warehouse A
+ORD-1467,2021-01-27,2021-01-30,Customer 467,Consumer,Houston,California,South,Technology,Phone,Phone 84,739.23,4,0.0,284.55,15.67,On Time,Warehouse A
+ORD-1468,2021-05-16,2021-05-21,Customer 468,Corporate,Chicago,Illinois,South,Technology,Laptop,Laptop 56,677.95,4,0.24,201.74,46.32,On Time,Warehouse A
+ORD-1469,2020-10-10,2020-10-12,Customer 469,Corporate,Houston,Texas,West,Furniture,Chair,Chair 3,208.03,1,0.14,249.16,38.32,Late,Warehouse B
+ORD-1470,2021-11-24,2021-11-26,Customer 470,Corporate,Miami,Texas,West,Office Supplies,Binder,Binder 39,714.6,10,0.11,241.67,12.34,On Time,Warehouse C
+ORD-1471,2021-04-21,2021-04-28,Customer 471,Corporate,New York City,Florida,South,Furniture,Table,Table 19,812.77,4,0.3,-22.04,47.39,Late,Warehouse A
+ORD-1472,2020-09-22,2020-09-26,Customer 472,Corporate,Miami,Illinois,West,Technology,Laptop,Laptop 3,995.75,1,0.24,163.13,27.98,On Time,Warehouse C
+ORD-1473,2020-05-09,2020-05-14,Customer 473,Consumer,Houston,Texas,East,Office Supplies,Pen,Pen 4,964.93,9,0.2,-15.67,9.17,On Time,Warehouse B
+ORD-1474,2021-09-11,2021-09-17,Customer 474,Corporate,Los Angeles,New York,East,Office Supplies,Paper,Paper 72,406.43,10,0.02,148.36,29.04,On Time,Warehouse A
+ORD-1475,2021-09-21,2021-09-23,Customer 475,Consumer,Chicago,California,South,Technology,Phone,Phone 98,79.29,3,0.24,254.19,9.68,Late,Warehouse C
+ORD-1476,2020-02-04,2020-02-11,Customer 476,Home Office,New York City,California,West,Furniture,Chair,Chair 83,810.52,6,0.29,211.8,6.91,On Time,Warehouse A
+ORD-1477,2021-10-14,2021-10-15,Customer 477,Corporate,New York City,California,Central,Furniture,Bookcase,Bookcase 25,388.23,8,0.25,30.42,44.66,On Time,Warehouse B
+ORD-1478,2020-07-23,2020-07-24,Customer 478,Corporate,Miami,Texas,South,Technology,Laptop,Laptop 4,27.4,2,0.24,145.86,8.37,Late,Warehouse C
+ORD-1479,2020-02-02,2020-02-03,Customer 479,Corporate,Chicago,Texas,South,Technology,Laptop,Laptop 96,109.93,9,0.18,-44.49,17.65,Late,Warehouse A
+ORD-1480,2020-05-22,2020-05-29,Customer 480,Home Office,Chicago,Florida,West,Furniture,Bookcase,Bookcase 71,345.28,9,0.0,87.75,15.68,Late,Warehouse A
+ORD-1481,2020-09-24,2020-09-30,Customer 481,Consumer,New York City,Illinois,East,Technology,Phone,Phone 70,692.36,3,0.18,39.31,30.76,Late,Warehouse C
+ORD-1482,2020-09-10,2020-09-17,Customer 482,Home Office,Miami,Illinois,East,Technology,Laptop,Laptop 24,564.48,10,0.06,55.56,27.01,Late,Warehouse B
+ORD-1483,2020-12-08,2020-12-14,Customer 483,Consumer,Houston,Illinois,South,Technology,Monitor,Monitor 27,337.17,6,0.25,-44.47,30.19,Late,Warehouse B
+ORD-1484,2020-10-31,2020-11-06,Customer 484,Corporate,Houston,California,West,Office Supplies,Binder,Binder 43,982.74,3,0.25,0.92,48.83,Late,Warehouse B
+ORD-1485,2021-12-01,2021-12-02,Customer 485,Corporate,Miami,Florida,South,Office Supplies,Pen,Pen 94,747.65,8,0.18,193.82,38.18,On Time,Warehouse C
+ORD-1486,2020-06-10,2020-06-13,Customer 486,Consumer,Los Angeles,Florida,South,Office Supplies,Binder,Binder 44,618.63,7,0.02,51.31,8.16,On Time,Warehouse B
+ORD-1487,2021-08-28,2021-09-03,Customer 487,Consumer,New York City,Texas,East,Office Supplies,Pen,Pen 49,237.29,10,0.18,129.64,38.88,Late,Warehouse C
+ORD-1488,2020-02-28,2020-02-29,Customer 488,Corporate,New York City,Florida,West,Furniture,Chair,Chair 46,507.55,2,0.04,102.9,7.99,On Time,Warehouse A
+ORD-1489,2020-10-28,2020-11-03,Customer 489,Corporate,New York City,New York,East,Furniture,Chair,Chair 53,822.23,4,0.23,-44.13,28.59,Late,Warehouse A
+ORD-1490,2020-12-29,2021-01-02,Customer 490,Consumer,New York City,Florida,South,Office Supplies,Binder,Binder 91,323.39,2,0.07,198.17,12.25,On Time,Warehouse B
+ORD-1491,2021-12-04,2021-12-09,Customer 491,Home Office,Los Angeles,California,East,Office Supplies,Pen,Pen 7,258.05,2,0.1,117.09,27.66,On Time,Warehouse C
+ORD-1492,2021-03-28,2021-04-04,Customer 492,Consumer,Los Angeles,Illinois,South,Technology,Laptop,Laptop 45,757.91,7,0.12,41.08,14.01,On Time,Warehouse C
+ORD-1493,2021-05-31,2021-06-01,Customer 493,Consumer,Los Angeles,Texas,South,Office Supplies,Paper,Paper 75,486.52,5,0.15,234.71,22.19,Late,Warehouse A
+ORD-1494,2020-06-21,2020-06-24,Customer 494,Corporate,New York City,California,East,Furniture,Chair,Chair 11,103.55,9,0.1,200.26,5.89,Late,Warehouse B
+ORD-1495,2021-12-11,2021-12-16,Customer 495,Consumer,Miami,Florida,West,Furniture,Bookcase,Bookcase 68,868.12,2,0.19,284.96,22.39,On Time,Warehouse B
+ORD-1496,2021-12-02,2021-12-03,Customer 496,Consumer,New York City,Illinois,Central,Technology,Laptop,Laptop 27,748.08,6,0.2,127.95,12.31,On Time,Warehouse C
+ORD-1497,2021-11-27,2021-12-04,Customer 497,Corporate,Los Angeles,Florida,Central,Office Supplies,Paper,Paper 17,955.0,6,0.15,149.04,35.7,On Time,Warehouse C
+ORD-1498,2021-02-14,2021-02-17,Customer 498,Home Office,New York City,Texas,South,Technology,Phone,Phone 62,367.38,5,0.13,152.24,30.37,Late,Warehouse C
+ORD-1499,2021-05-08,2021-05-14,Customer 499,Home Office,Miami,New York,West,Furniture,Bookcase,Bookcase 46,267.98,9,0.01,223.46,37.7,Late,Warehouse C
